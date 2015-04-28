@@ -131,13 +131,61 @@ h2 {
 }
 
 .siteLogo{
-	background: url(../img/logo-qtf.png) no-repeat 0 0 transparent;
+//	background: url(../img/logo-header.png) no-repeat 0 0 transparent;
 	background-size:225px 72px;
 	height: 72px;
 	display: block;
 	width: 225px;
 	text-indent: -99999px;
 	float: left;
+}
+
+/**
+ * Nav bar
+ */
+
+.navbar {
+	font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
+	background-color: #1C3973;
+	min-height: 70px;
+	font-size: 20px;
+	padding-top: 8px;
+	border-color: rgba(0, 0, 0, 0);
+	color: #fff;
+}
+
+.navbar-brand {
+	font-size: 30px;
+	padding-top: 5px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #FFFFFF;
+	padding: 9px 13px;
+	border-radius: 3px;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	background-color: #112D64;
+}
+
+ul.nav.navbar-nav.navbar-right {
+	margin-top: 7px;
+}
+
+.sub-brand {
+	font-family: 'Open Sans', sans-serif;
+	color: #e5e5e5;
+	font-size: 15px;
+	float: right;
+	margin-top: 23px;
+	margin-left: -100px;
+	font-weight: 100;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #FFFFFF;
+	font-weight: 600;
 }
 
 
@@ -505,7 +553,7 @@ footer a img:hover {
 
 .grid{
 	padding-bottom: 50px;
-} 
+}
 
 p.twitter-share{
 	margin: 10px 0 5px 0;
@@ -697,8 +745,8 @@ ol.simple-list > li:before {
     }
 }
 
-@media (max-width: 768px) { 
-		
+@media (max-width: 768px) {
+
 	.banner {
 		background: #2BAF2B;
 		width: 100%;
@@ -880,4 +928,3 @@ span.paring {
 	top: 20px;
 	right: 4px;
 }
-
