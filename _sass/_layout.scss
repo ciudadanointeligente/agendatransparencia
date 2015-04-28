@@ -2,7 +2,6 @@
  * Site header
  */
  html body{
-	background: #1B1B1B;
 	margin: 0;
 	font-weight: normal;
 	font-size: 15px;
@@ -13,14 +12,14 @@
  }
 
 h1{
-	font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-weight: 400;
 	font-size: 51px;
-	color: #1B1B1B;
+	text-align: center;
 }
 
 h2 {
-	font-family: "Yanone Kaffeesatz";
+	font-family: 'Oswald', sans-serif;
 }
 
  p{
@@ -32,22 +31,17 @@ h2 {
  }
 
  a{
-	color: #EF4036;
+	color: $yellow;
  }
 
- a:hover{
-	color: #EF4036;
+ a:hover, a:visited {
+	color: $dark-yellow;
  }
-
-  a:visited{
-	color: #EF4036;
- }
-
 
 
 .site-header {
     min-height: 95px;
-    background: #000;
+    background: $dark-blue;
     padding:10px;
 
     // Positioning context for the mobile navigation icon
@@ -154,9 +148,11 @@ h2 {
 	color: #fff;
 }
 
-.navbar-brand {
+a.navbar-brand {
 	font-size: 30px;
 	padding-top: 5px;
+	font-family: 'Oswald', sans-serif;
+	color: #FFFFFF;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -181,6 +177,7 @@ ul.nav.navbar-nav.navbar-right {
 	margin-top: 23px;
 	margin-left: -100px;
 	font-weight: 100;
+	text-transform: lowercase;
 }
 
 .navbar-inverse .navbar-brand {
