@@ -5,7 +5,7 @@
         {% for flyer in site.campaign_flyers %}
             {% if {{flyer.active}} == true %}
                 <div class="col-lg-4 col-sm-4 col-xs-12">
-                    <img class="img-responsive item" src="../img/{{flyer.image}}" alt="">
+                    <img class="img-responsive item" src="{{ site.baseurl }}/img/campaign/{{flyer.image}}" alt="">
                     <span class="buttontwitter"><a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-url="none" data-text="{{flyer.description}}"></a></span>
                 </div>
                 {% assign counter=counter | plus:1 %}
