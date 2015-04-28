@@ -1,0 +1,16 @@
+# site settings
+title: Agenda transparencia
+email: info@ciudadanointeligente.org
+description: Lorem ipsum.
+#baseurl: "http://agendatransparencia.cl" # the subpath of your site, e.g. /blog/
+twitter_username: ciudadanoi
+github_username:  ciudadanointeligente
+#analytics: 'UA-XXXXXXXX-X'
+#basedomain: agendatransparencia.cl
+
+# build settings
+markdown: kramdown
+
+collections:
+  campaign_flyers:
+    output: true
