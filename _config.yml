@@ -2,11 +2,14 @@
 title: Agenda transparencia
 email: info@ciudadanointeligente.org
 description: Lorem ipsum.
-#baseurl: "http://agendatransparencia.cl" # the subpath of your site, e.g. /blog/
-twitter_username: ciudadanoi
-github_username:  ciudadanointeligente
+baseurl: '/agendatransparencia' #example: 'http://agendatransparencia.cl'
+basedomain: ciudadanointeligente.github.io #agendatransparencia.cl
 #analytics: 'UA-XXXXXXXX-X'
-#basedomain: agendatransparencia.cl
+
+#social
+hashtag: CadenaNacional
+twitter_username: ciudadanoi
+twitter_txt: 'Estos son los 15 puntos claves del Informe Anticorrupción según @ciudadanoi. Difunde en'
 
 # build settings
 markdown: kramdown
