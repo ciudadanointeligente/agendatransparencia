@@ -1,7 +1,7 @@
 # site settings
 title: Agenda transparencia
 email: info@ciudadanointeligente.org
-description: Lorem ipsum.
+description: Dale seguimiento a las propuestas del Consejo Anticorrupción.
 baseurl: '/agendatransparencia' #example: 'http://agendatransparencia.cl'
 basedomain: ciudadanointeligente.github.io #agendatransparencia.cl
 #analytics: 'UA-XXXXXXXX-X'

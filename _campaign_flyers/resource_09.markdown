@@ -1,5 +1,5 @@
 ---
 description: ""
-image: 1.jpg
+image: img1.jpg
 active: true
 ---
