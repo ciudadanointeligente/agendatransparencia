@@ -2,14 +2,14 @@
 title: Agenda transparencia
 email: info@ciudadanointeligente.org
 description: Dale seguimiento a las propuestas del Consejo Anticorrupción.
-baseurl: '/agendatransparencia' #example: 'http://agendatransparencia.cl'
-basedomain: ciudadanointeligente.github.io #agendatransparencia.cl
-#analytics: 'UA-XXXXXXXX-X'
+baseurl: 'http://agendatransparencia.cl' #example: '/agendatransparencia'
+basedomain: agendatransparencia.cl #ciudadanointeligente.github.io
+analytics: 'UA-41822715-6'
 
 #social
-hashtag: CadenaNacional
+hashtag: AgendaTransparencia
 twitter_username: ciudadanoi
-twitter_txt: 'Estos son los 15 puntos claves del Informe Anticorrupción según @ciudadanoi. Difunde en'
+twitter_txt: 'Estos son los 15 puntos clave del Informe Anticorrupción según @ciudadanoi. Difunde en'
 
 # build settings
 markdown: kramdown
