@@ -3,25 +3,24 @@
  */
  html body{
 	margin: 0;
-	font-weight: normal;
 	font-size: 15px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
     -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
     text-shadow: rgba(0,0,0,.01) 0 0 1px;
  }
 
-h1{
-	font-family: 'Oswald', sans-serif;
-	font-weight: 400;
-	font-size: 51px;
-	text-align: center;
+h1 {
+  font-weight: 100;
 }
 
-h2 {
-	font-family: 'Oswald', sans-serif;
-	text-align: center;
-}
+ h3 {
+  font-weight: 100;
+ }
+
+ h5 {
+  font-weight: 500;
+ }
 
  p{
 	color: #45515E;
@@ -32,18 +31,22 @@ h2 {
  }
 
  a{
-	color: $yellow;
+	color: $purple;
  }
 
  a:hover, a:visited {
-	color: $dark-yellow;
+	color: $darkpurple;
+ }
+
+ .text-width {
+ 	max-width: 800px;
+ 	margin: 0 auto;
  }
 
 
 .site-header {
     min-height: 95px;
-    background: $dark-blue;
-    padding:10px;
+    padding: 10px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -58,12 +61,11 @@ h2 {
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $darkgrey;
     }
 }
 
 .site-nav {
-    float: right;
     line-height: 56px;
 
     .menu-icon {
@@ -71,7 +73,7 @@ h2 {
     }
 
     .page-link {
-        color: $text-color;
+        color: $darkgrey;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
@@ -84,8 +86,8 @@ h2 {
         position: absolute;
         top: 9px;
         right: 30px;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
+        background-color: $lightgrey;
+        border: 1px solid $lightgrey;
         border-radius: 5px;
         text-align: right;
 
@@ -103,7 +105,7 @@ h2 {
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: $darkgrey;
                 }
             }
         }
@@ -126,7 +128,7 @@ h2 {
 }
 
 .siteLogo{
-//	background: url(../img/logo-header.png) no-repeat 0 0 transparent;
+	background: url(../img/logo-header.png) no-repeat 0 0 transparent;
 	background-size:225px 72px;
 	height: 72px;
 	display: block;
@@ -140,7 +142,6 @@ h2 {
  */
 
 .navbar {
-	font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
 	background-color: #1C3973;
 	min-height: 70px;
 	font-size: 20px;
@@ -150,10 +151,8 @@ h2 {
 }
 
 a.navbar-brand {
-	font-size: 30px;
-	padding-top: 5px;
-	font-family: 'Oswald', sans-serif;
-	color: #FFFFFF;
+	font-size: 20px;
+	padding-top: 9px;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -172,18 +171,12 @@ ul.nav.navbar-nav.navbar-right {
 
 .sub-brand {
 	font-family: 'Open Sans', sans-serif;
-	color: #e5e5e5;
 	font-size: 15px;
 	float: right;
 	margin-top: 23px;
 	margin-left: -100px;
-	font-weight: 100;
 	text-transform: lowercase;
-}
-
-.navbar-inverse .navbar-brand {
-	color: #FFFFFF;
-	font-weight: 600;
+	display: none;
 }
 
 
@@ -191,9 +184,10 @@ ul.nav.navbar-nav.navbar-right {
  * Site footer
  */
 
-footer{
-	background:#000;
-	padding:7px;
+footer {
+  background: #FFFFFF;
+  padding: 7px;
+  margin-top: 50px;
 }
 
 .centerCont {
@@ -220,7 +214,7 @@ footer a img:hover {
 	opacity: 1;
 }
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: 1px solid $lightgrey;
     padding: $spacing-unit 0;
 }
 
@@ -237,7 +231,7 @@ footer a img:hover {
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: $grey;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -309,12 +303,19 @@ footer a img:hover {
 
 .post-meta {
     font-size: $small-font-size;
-    color: $grey-color;
+    color: $grey;
 }
 
 .post-link {
     display: block;
     font-size: 24px;
+}
+
+/*HERO*/
+
+.hero h1 {
+	color: $blue;
+	margin: 30px 0 60px;
 }
 
 
@@ -600,16 +601,47 @@ p.twitter-share{
 	border-radius: 100px;
 }
 
-.btn-default {
-	color: #ffffff;
-	background: #EF4036;
+.btn {
+  background: $grey;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.btn:hover {
+  box-shadow: 0px 0px 8px rgba(51, 51, 51, 0.6);
+  color: #FFFFFF;
+}
+
+a.btn {
+  color: #ffffff;
+  text-decoration: none;
+}
+  
+.btn-success {
+	background: #bd10e0; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #bd10e0 0%, #f55923 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#bd10e0), color-stop(100%,#f55923)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  #bd10e0 0%,#f55923 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  #bd10e0 0%,#f55923 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  #bd10e0 0%,#f55923 100%); /* IE10+ */
+  background: linear-gradient(135deg,  #bd10e0 0%,#f55923 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bd10e0', endColorstr='#f55923',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	border: none;
 }
 
-.btn-default:hover {
+.btn-success:hover {
 	color: #ffffff;
 	border-color: none;
-	background: #2BAF2B;
+  background: #bd10e0; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #bd10e0 0%, #f55923 70%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#bd10e0), color-stop(70%,#f55923)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  #bd10e0 0%,#f55923 70%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  #bd10e0 0%,#f55923 70%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  #bd10e0 0%,#f55923 70%); /* IE10+ */
+  background: linear-gradient(135deg,  #bd10e0 0%,#f55923 70%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bd10e0', endColorstr='#f55923',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 .contact a{
@@ -925,4 +957,59 @@ span.paring {
 	position: absolute;
 	top: 20px;
 	right: 4px;
+}
+
+/*BOX */
+
+.box {
+	background: #FFFFFF;
+  padding: 15px 0;
+  box-shadow: 0px 0px 8px rgba(51, 51, 51, 0.2);
+}
+
+.support {
+  background-color: $lightgrey;
+  padding: 15px;
+}
+
+.card-description {
+	padding: 15px;
+}
+
+.label-rechazada {
+  background-color: $red;
+}
+
+.label-aprobada {
+  background-color: $blue;
+}
+
+.label-en-proceso {
+  background-color: $purple;
+}
+
+.counter li {
+  background: url(../img/counter-bg.png) no-repeat;
+  color: #fff;
+  font-size: 36px;
+  line-height: 46px;
+  padding: 0px 6px;
+}
+
+li.party a {
+  min-width: 65px;
+}
+
+
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 800px) {
+    .sub-brand {
+        display: inline-block;
+    }
+
+    .logo-fci {
+    	display: none;
+    }
 }

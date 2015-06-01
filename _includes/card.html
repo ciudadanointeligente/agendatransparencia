@@ -1,48 +1,54 @@
 <div class="col-md-4">
-	<ul class="list-inline">
-		<li> {{ card.status }} </li>
-	</ul>
-	<p>
-		{{ card.description }}
-	</p>
-	<h3>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi?</h3>
-	{% for quote in card.quotes %}
-	<blockquote> {{ quote.txt }} </blockquote>
-	{% endfor %}
-	<div>
-		<h3>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi?</h3>
-		<div class="row">
-			<div class="col-md-6">
-				<ul class="list-inline">
-					{% for nro in card.parliamentarians_cnt %}
-					<li>{{nro}}</li>
-					{% endfor %}
-				</ul>
-			</div>
-			<div class="col-md-6">
-				Parlamentarios
-			</div>
-		</div>
-		<ul class="list-inline">
-			{% for party in card.parties %}
-				<li><a href="#" data-toggle="modal" data-target="#myModal-{{party.name | downcase}}">{{party.name}}</a></li>
-			{% endfor %}
+	<div class="box">
+		<ul class="list-inline status text-right">
+			<li><span class="label label-{{ card.status | replace:' ','-' }}">{{ card.status }}</span></li>
 		</ul>
-		{% for party in card.parties %}
-			{% include modal.html %}
-		{% endfor %}
+		<div class="card-description">
+			<h3>
+				{{ card.description }}
+			</h3>
 
-		<div class="row">
-			<div class="col-md-6">
-				<ul class="list-inline">
-					{% for nro in card.citizens_cnt %}
-					<li>{{nro}}</li>
-					{% endfor %}
-				</ul>
+			<h5>¿Qué pasa si no se promulga?</h5>
+			{% for quote in card.quotes %}
+			<blockquote> {{ quote.txt }} </blockquote>
+			{% endfor %}
+		</div>
+
+		<div class="support">
+			<h5>¿Quiénes apoyan y celebran con nosotros?</h5>
+			<div class="row">
+				<div class="col-md-6 counter">
+					<ul class="list-inline">
+						{% for nro in card.parliamentarians_cnt %}
+						<li>{{nro}}</li>
+						{% endfor %}
+					</ul>
+				</div>
+				<div class="col-md-6">
+					Parlamentarios
+				</div>
 			</div>
-			<div class="col-md-6">
-				Ciudadanos
-				<span>Apoya esta propuesta</span>
+			<ul class="list-inline">
+				{% for party in card.parties %}
+					<li class="party"><a class="btn btn-xs {% if party.support %} btn-success {% endif %}" href="#" data-toggle="modal" data-target="#myModal-{{party.name | downcase}}">{{party.name}}</a></li>
+				{% endfor %}
+			</ul>
+			{% for party in card.parties %}
+				{% include modal.html %}
+			{% endfor %}
+
+			<div class="row">
+				<div class="col-md-6 counter">
+					<ul class="list-inline">
+						{% for nro in card.citizens_cnt %}
+						<li>{{nro}}</li>
+						{% endfor %}
+					</ul>
+				</div>
+				<div class="col-md-6">
+					Ciudadanos
+					<a class="btn btn-sm btn-success" href="/">Apoya esta propuesta</a>
+				</div>
 			</div>
 		</div>
 	</div>

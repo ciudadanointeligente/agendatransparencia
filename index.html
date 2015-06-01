@@ -2,17 +2,18 @@
 layout: default
 ---
 
-<div class="container">
-	<h1>Estos son los 15 puntos clave del Informe Anticorrupción según Ciudadano Inteligente.</h1><br />
-	<h2>¿Cuáles son los puntos importantes para ti? Ayúdanos a difundir usando #AgendaTransparencia y ¡presionemos juntos!</h2>
+<div class="container hero">
+  <div class="text-width text-center">
+    <h1>Estos son los 15 puntos clave del Informe Anticorrupción según Ciudadano Inteligente.</h1>
+  </div>
 </div>
 
 <section>
-	<div class="container">
-		<div class="row">
-			{% for card in site.cards %}
-				{% include card.html %}
-			{% endfor %}
-		</div>
-	</div>
+  <div class="container">
+    <div class="row">
+      {% for card in site.cards %}
+        {% include card.html %}
+      {% endfor %}
+    </div>
+  </div>
 </section>
