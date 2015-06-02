@@ -17,14 +17,14 @@
 		<div class="support">
 			<h5>¿Quiénes apoyan y celebran con nosotros?</h5>
 			<div class="row">
-				<div class="col-md-6 counter">
+				<div class="col-md-5 counter">
 					<ul class="list-inline">
 						{% for nro in card.parliamentarians_cnt %}
 						<li>{{nro}}</li>
 						{% endfor %}
 					</ul>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-7 align-parlamentarios">
 					Parlamentarios
 				</div>
 			</div>
@@ -38,14 +38,14 @@
 			{% endfor %}
 
 			<div class="row">
-				<div class="col-md-6 counter">
+				<div class="col-md-5 counter">
 					<ul class="list-inline">
 						{% for nro in card.citizens_cnt %}
 						<li>{{nro}}</li>
 						{% endfor %}
 					</ul>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-7 align-ciudadanos">
 					Ciudadanos
 					<a class="btn btn-sm btn-success" href="/">Apoya esta propuesta</a>
 				</div>
