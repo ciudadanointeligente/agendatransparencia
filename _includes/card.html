@@ -4,12 +4,13 @@
 			<li><span class="label label-{{ card.status | replace:' ','-' }}">{{ card.status }}</span></li>
 		</ul>
 		<div class="card-description">
+			<span><a href="#" data-toggle="modal" data-target="#myModal-{{ card.id }}">Detalles</i></a> / </span> <a href="#" data-toggle="modal" data-target="#myModal-{{ card.status|append:card.id }}">Estado de la propuesta</i></a>
 			<h3>
-				{{ card.description }}
-				<a href="#" data-toggle="modal" data-target="#myModal-{{ card.id }}"><i class="fa fa-info"></i></a>
+				{{ card.title }}
 			</h3>
-			{% if card.description %}
+			{% if card.title %}
 				{% include modal.html %}
+				{% include modal-status.html %}
 			{% endif %}
 
 			<h5>¿Qué pasa si no se promulga?</h5>
