@@ -34,7 +34,7 @@ h1 {
 	color: $purple;
  }
 
- a:hover, a:visited {
+ a:hover, a:visited, a:active {
 	color: $darkpurple;
  }
 
@@ -320,6 +320,7 @@ footer a img:hover {
 
 .progress {
   height: 60px;
+  border-radius: 0px;
 }
 
 .progress-bar-danger {
@@ -327,16 +328,37 @@ footer a img:hover {
   padding: 13px 0px;
 }
 
+.graph-legend {
+  line-height: 16px;
+}
+
+.graph-legend h2 {
+  margin-bottom: 0;
+}
+
+.graph-legend.danger {
+  color: $red;
+}
+
 .progress-bar-warning {
   background-color: $purple;
   padding: 13px 0px;
+  border-right: 4px solid $lightgrey;
+}
+
+.graph-legend.warning {
+  color: $purple;
 }
 
 .progress-bar-success {
   background-color: $blue;
   padding: 13px 0px;
+  border-right: 4px solid $lightgrey;
 }
 
+.graph-legend.success {
+  color: $blue;
+}
 
 /**
  * Posts
@@ -1020,7 +1042,7 @@ span.paring {
   padding: 0px 7px;
 }
 
-li.party a {
+li.party span {
   min-width: 65px;
 }
 

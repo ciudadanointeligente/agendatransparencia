@@ -6,7 +6,11 @@
 		<div class="card-description">
 			<h3>
 				{{ card.description }}
+				<a href="#" data-toggle="modal" data-target="#myModal-{{ card.id }}"><i class="fa fa-info"></i></a>
 			</h3>
+			{% if card.description %}
+				{% include modal.html %}
+			{% endif %}
 
 			<h5>¿Qué pasa si no se promulga?</h5>
 			{% for quote in card.quotes %}
@@ -30,12 +34,9 @@
 			</div>
 			<ul class="list-inline">
 				{% for party in card.parties %}
-					<li class="party"><a class="btn btn-xs {% if party.support %} btn-success {% endif %}" href="#" data-toggle="modal" data-target="#myModal-{{party.name | downcase}}">{{party.name}}</a></li>
+					<li class="party"><span class="btn btn-xs {% if party.support %} btn-success {% endif %}">{{party.name}}</span></li>
 				{% endfor %}
 			</ul>
-			{% for party in card.parties %}
-				{% include modal.html %}
-			{% endfor %}
 
 			<div class="row">
 				<div class="col-md-5 counter">
