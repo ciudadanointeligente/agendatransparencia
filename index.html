@@ -8,8 +8,8 @@ layout: default
   </div>
 </div>
 
-<section>
-  <div class="container">
+<section ng-app="atransparenciaApp">
+  <div class="container" ng-controller="AddVotesCtrl">
     <div class="row">
     {% assign count = 1 %}
       {% for card in site.cards %}

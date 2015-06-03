@@ -14,6 +14,9 @@ twitter_txt: 'Estos son los 15 puntos clave del Informe Anticorrupción según @
 # build settings
 markdown: kramdown
 
+#herokuapp
+herokuapp: '//atransparencia.herokuapp.com/proposals/'
+
 collections:
   cards:
     output: true
