@@ -618,7 +618,7 @@ a.btn {
   color: #ffffff;
   text-decoration: none;
 }
-  
+
 .btn-success {
 	background: #bd10e0; /* Old browsers */
   background: -moz-linear-gradient(-45deg,  #bd10e0 0%, #f55923 100%); /* FF3.6+ */
@@ -1019,6 +1019,28 @@ li.party a {
 
 .align-ciudadanos {
   margin-top: -5px;
+}
+
+
+/*MEME GENERATOR*/
+#main {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.caption {
+  width: 100%;
+}
+
+table td {
+  padding-right: 10px;
+}
+
+textarea {
+  text-align: center;
+  font-size: 22px;
+  height: 3em;
 }
 
 
