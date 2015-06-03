@@ -318,6 +318,24 @@ footer a img:hover {
 	margin: 30px 0 60px;
 }
 
+.progress {
+  height: 60px;
+}
+
+.progress-bar-danger {
+  background-color: $red;
+  padding: 13px 0px;
+}
+
+.progress-bar-warning {
+  background-color: $purple;
+  padding: 13px 0px;
+}
+
+.progress-bar-success {
+  background-color: $blue;
+  padding: 13px 0px;
+}
 
 
 /**
@@ -1020,6 +1038,7 @@ li.party a {
 .align-ciudadanos {
   margin-top: -5px;
 }
+
 
 
 /*MEDIA QUERIES*/
