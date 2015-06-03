@@ -1,55 +1,55 @@
 <div class="col-md-4">
-	<div class="box">
-		<ul class="list-inline status text-right">
-			<li><span class="label label-{{ card.status | replace:' ','-' }}">{{ card.status }}</span></li>
-		</ul>
-		<div class="card-description">
-			<h3>
-				{{ card.description }}
-			</h3>
+  <div class="box">
+    <ul class="list-inline status text-right">
+      <li><span class="label label-{{ card.status | replace:' ','-' }}">{{ card.status }}</span></li>
+    </ul>
+    <div class="card-description">
+      <h3>
+        {{ card.description }}
+      </h3>
 
-			<h5>¿Qué pasa si no se promulga?</h5>
-			{% for quote in card.quotes %}
-			<blockquote> {{ quote.txt }} </blockquote>
-			{% endfor %}
-		</div>
+      <h5>¿Qué pasa si no se promulga?</h5>
+        {% for quote in card.quotes %}
+        <blockquote> {{ quote.txt }} </blockquote>
+        {% endfor %}
+    </div>
 
-		<div class="support">
-			<h5>¿Quiénes apoyan y celebran con nosotros?</h5>
-			<div class="row">
-				<div class="col-md-5 counter">
-					<ul class="list-inline">
-						{% for nro in card.parliamentarians_cnt %}
-						<li>{{nro}}</li>
-						{% endfor %}
-					</ul>
-				</div>
-				<div class="col-md-7 align-parlamentarios">
-					Parlamentarios
-				</div>
-			</div>
-			<ul class="list-inline">
-				{% for party in card.parties %}
-					<li class="party"><a class="btn btn-xs {% if party.support %} btn-success {% endif %}" href="#" data-toggle="modal" data-target="#myModal-{{party.name | downcase}}">{{party.name}}</a></li>
-				{% endfor %}
-			</ul>
-			{% for party in card.parties %}
-				{% include modal.html %}
-			{% endfor %}
+    <div class="support">
+      <h5>¿Quiénes apoyan y celebran con nosotros?</h5>
+        <div class="row">
+          <div class="col-md-5 counter">
+            <ul class="list-inline">
+              {% for nro in card.parliamentarians_cnt %}
+              <li>{{nro}}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="col-md-7 align-parlamentarios">
+            Parlamentarios
+          </div>
+        </div>
+        <ul class="list-inline">
+          {% for party in card.parties %}
+            <li class="party"><a class="btn btn-xs {% if party.support %} btn-success {% endif %}" href="#" data-toggle="modal" data-target="#myModal-{{party.name | downcase}}">{{party.name}}</a></li>
+          {% endfor %}
+        </ul>
+        {% for party in card.parties %}
+          {% include modal.html %}
+        {% endfor %}
 
-			<div class="row">
-				<div class="col-md-5 counter">
-					<ul class="list-inline">
-						{% for nro in card.citizens_cnt %}
-						<li>{{nro}}</li>
-						{% endfor %}
-					</ul>
-				</div>
-				<div class="col-md-7 align-ciudadanos">
-					Ciudadanos
-					<a class="btn btn-sm btn-success" href="/">Apoya esta propuesta</a>
-				</div>
-			</div>
-		</div>
-	</div>
+        <div class="row">
+          <div class="col-md-5 counter">
+            <ul class="list-inline">
+              {% for nro in card.citizens_cnt %}
+              <li>{{nro}}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="col-md-7 align-ciudadanos">
+            Ciudadanos
+            <a class="btn btn-sm btn-success" href="/">Apoya esta propuesta</a>
+          </div>
+        </div>
+      </div>
+    </div>
 </div>
