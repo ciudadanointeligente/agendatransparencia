@@ -10,7 +10,9 @@ app.config(function($httpProvider) {
 app.controller("AddVotesCtrl", function($scope, $http){
 	
 	$scope.addVote = function(proposal_id) {
-		$http.put(herokuapp+proposal_id+'/add_vote')
+		Cookies.set('card-'+proposal_id, 'vote-'+proposal_id, { expires: 7, path: '/' });
+		$('#vote-'+proposal_id).attr('disabled','disabled');
+		$http.jsonp(herokuapp+proposal_id+'/add_vote?callback=vote', {})
 			.success(function(data){
 				console.log('yey!');
 			})
