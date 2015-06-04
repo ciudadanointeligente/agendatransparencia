@@ -36,6 +36,13 @@
                 }
                 x++;
             }
+
+            $.get('{{ site.herokuapp }}', function(data){
+                $.each(data, function(k,v){
+                    counter_votes(v);
+                })
+            })
+
         })
     </script>
 </head>

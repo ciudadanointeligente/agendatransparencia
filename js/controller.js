@@ -10,12 +10,33 @@ app.config(function($httpProvider) {
 app.controller("AddVotesCtrl", function($scope, $http){
 	
 	$scope.addVote = function(proposal_id) {
-		Cookies.set('card-'+proposal_id, 'vote-'+proposal_id, { expires: 7, path: '/' });
-		$('#vote-'+proposal_id).attr('disabled','disabled');
-		$http.jsonp(herokuapp+proposal_id+'/add_vote?callback=vote', {})
-			.success(function(data){
-				console.log('yey!');
-			})
+		$http.jsonp(herokuapp+'/'+proposal_id+'/add_vote?callback=vote')
 	}
 
 })
+
+function counter_votes(v) {
+    var x=0;
+    votes = v.votes.toString().split('');
+    ul = $('.citizen-support-'+v.id);
+    ul.html('');
+    while(x<votes.length){
+        ul.append('<li>'+votes[x]+'</li>');
+        x++;
+    }
+    if(votes.length<=3) {
+        var v=votes.length;
+        while(v<3){
+            ul.prepend('<li>0</li>');
+            v++;
+        }
+    }
+}
+
+function vote(data) {
+	var votes = [], x=0;
+	//set cookie for disallow voting button
+	Cookies.set('card-'+data.id, 'vote-'+data.id, { expires: 7, path: '/' });
+	$('#vote-'+data.id).attr('disabled','disabled');
+	counter_votes(data);
+}
