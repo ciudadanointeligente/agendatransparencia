@@ -13,7 +13,7 @@ layout: default
     <div id="main">
       <div id="header">
       </div>
-      <div style="font-size: 20px">Sube una imagen desde tu computador:</div>
+      <div style="font-size: 20px">Sube una imagen desde tu computador: <i>(opcional)</i></div>
       <input type="file" id="image"><br>
       <textarea class="caption" id="text1" cols="60" rows="3" placeholder="Texto superior"></textarea><br>
       <canvas id="canvas" style="width: 600px"></canvas>
@@ -25,7 +25,8 @@ layout: default
       <br>
       <button id="upload" class="btn btn-primary btn-lg">¡Subir!</button>
       <div id="uploaded" style="color: gray">El link del meme aparecerá aquí</div>
-      <br><br><br><br>
+      <br><br>
+      {% include social.html %}
       <img id="placeholder_image" src="./img/base.png" style="display: none">
     </div>
   </div>
