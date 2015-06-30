@@ -1,11 +1,11 @@
 ---
 status: rechazada
 id: 01
-title: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+title: Servel fortalecido con autonomía constitucional
+description: Servel con autonomía constitucional y atribuciones de fiscalización, dotación de personal y presupuesto adecuado para cumplir su rol.
 quotes:
-  - txt: Lorem ipsum dolor sit amet, dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  - txt: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  - txt: No contar con un “nuevo” Servel para las elecciones municipales.
+  - txt: Facultades, presupuesto y personal que no sea suficiente para ejercer sus labores de fiscalización.
 parliamentarians_cnt: [0,0,0]
 citizens_cnt: [0,0,0]
 parties:
@@ -67,6 +67,7 @@ parties:
     parliamentarians: [lala, lolo]
 ---
 
-* En agenda: Reforma constitucional de autonomía del Servel (enlace: http://www.agendadeprobidad.gob.cl/?ver=2283)
-* En agenda: Proyecto de LOC del Servel (enlace: http://www.agendadeprobidad.gob.cl/?ver=2291)
-* En agenda: Institucionalidad del TRICEL y TER (enlace: http://www.agendadeprobidad.gob.cl/?ver=2288)
+
+* En agenda: Reforma constitucional de autonomía del Servel. [Enlace](http://www.agendadeprobidad.gob.cl/?ver=2283)
+* En agenda: Proyecto de LOC del Servel. [Enlace](http://www.agendadeprobidad.gob.cl/?ver=2291)
+* En agenda: Institucionalidad del TRICEL y TER [Enlace](http://www.agendadeprobidad.gob.cl/?ver=2288)
