@@ -1,68 +1,17 @@
 ---
-status: aprobada
+status: pendiente
 id: 04
-title: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-quotes:
-  - txt: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  - txt: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-parliamentarians_cnt: [0,0,0]
-citizens_cnt: [0,0,0]
-parties:
-  -
-    name: Amplitud (3)
-    support: false
-    parliamentarians:  [lala, lolo]
-  -
-    name: DC (29)
-    support: false
-    parliamentarians: [lala, lolo]
-  -
-    name: Evopoli (1)
-    support: false
-    parliamentarians:  [lala, lolo]
-  -
-    name: IA (1)
-    support: false
-    parliamentarians:  [lala, lolo]
-  -
-    name: IC (1)
-    support: false
-    parliamentarians:  [lala, lolo]
-  -
-    name: MAS (1)
-    support: false
-    parliamentarians: [lala, lolo]
-  -
-    name: PC (6)
-    support: false
-    parliamentarians: [lala, lolo]
-  -
-    name: PL (1)
-    support: false
-    parliamentarians:  [lala, lolo]
-  -
-    name: PPD (21)
-    support: false
-    parliamentarians: [lala, lolo]
-  -
-    name: PRSD (7)
-    support: false
-    parliamentarians:  [lala, lolo]
-  -
-    name: PS (23)
-    support: false
-    parliamentarians: [lala, lolo]
-  -
-    name: RD (1)
-    support: false
-    parliamentarians:  [lala, lolo]
-  -
-    name: RN (21)
-    support: false
-    parliamentarians: [lala, lolo]
-  -
-    name: UDI (37)
-    support: false
-    parliamentarians: [lala, lolo]
+title: Sistema integral de transparencia
+importance:
+  - txt: Necesitamos fortalecer nuestro sistema de transparencia, consagrando el derecho de acceso en la Constitución.
+  - txt: Se necesita extender la competencia del Consejo para la Transparencia al Poder Legislativo, Judicial y órganos autónomos.
+  - txt: Nuestro país necesita contar con una política nacional de Datos Abiertos, para fomentar el acceso a la información pública y su control social.
+news:
+  - txt: El proyecto de ley que modifica la Ley de Transparencia se encuentra con urgencia simple pendiente de continuar su discusión en la Comisión especial encargada de conocer proyectos relativos a probidad y transparencia.
+  - txt: <a href="https://docs.google.com/document/d/1DHA83YUs7igCZUsoAJeaqFIxCfHX1KrRC4fApc5Bci0/edit?usp=sharing" target="_blank">Revisa la minuta </a> de la Fundación sobre el contenido de dicho proyecto.
+citizens_cnt: [0,0,1]
+details: true
 ---
+
+* En agenda de probidad del Gobierno. [Ver](http://www.agendadeprobidad.gob.cl/?ver=2276)
+* Proyecto de ley que modifica la Ley de Transparencia. [Ver](http://camara.cl/pley/pley_detalle.aspx?prmID=8086&prmBL=7686-07)

@@ -1,57 +1,52 @@
 <div class="col-md-4">
-	<div class="box">
-		<ul class="list-inline status text-right">
-			<li><span class="label label-{{ card.status | replace:' ','-' }}">{{ card.status }}</span></li>
-		</ul>
-		<div class="card-description">
-			<span><a href="#" data-toggle="modal" data-target="#myModal-{{ card.id }}">Detalles</i></a> / </span> <a href="#" data-toggle="modal" data-target="#myModal-{{ card.status|append:card.id }}">Estado de la propuesta</i></a>
-			<h3>
-			{{ card.title }}
-			</h3>
-			{% if card.title %}
-			{% include modal.html %}
-			{% include modal-status.html %}
-			{% endif %}
+  <div class="box">
+    <ul class="list-inline status text-right">
+      <li><span class="label label-{{ card.status | replace:' ','-' }}">{{ card.status }}</span></li>
+    </ul>
+    <div class="card-description">
+      {% if card.details %}
+        <a href="#" data-toggle="modal" data-target="#myModal-{{ card.id }}">Detalles</i></a>
+      {% endif %}
+      <h3>
+      {{ card.title }}
+      </h3>
+      {% if card.title %}
+      {% include modal.html %}
+      {% endif %}
 
-			<h5>¿Qué pasa si no se promulga?</h5>
-			{% for quote in card.quotes %}
-			<blockquote> {{ quote.txt }} </blockquote>
-			{% endfor %}
-		</div>
+      <h5>¿Por qué es importante?</h5>
+      {% for quote in card.importance %}
+      <blockquote>{{ quote.txt }}</blockquote>
+      {% endfor %}
+    </div>
 
-	    <div class="support">
-	     	<h5>¿Quiénes apoyan y celebran con nosotros?</h5>
-	      	<div class="row">
-	        	<div class="col-md-5 counter">
-	          		<ul class="list-inline">
-	            		{% for nro in card.parliamentarians_cnt %}
-	            			<li>{{nro}}</li>
-	            		{% endfor %}
-	          		</ul>
-	        	</div>
-				<div class="col-md-7 align-parlamentarios">
-					Parlamentarios
-				</div>
-	      	</div>
-			<ul class="list-inline">
-				{% for party in card.parties %}
-					<li class="party"><span class="btn btn-xs {% if party.support %} btn-success {% endif %}">{{party.name}}</span></li>
-				{% endfor %}
-			</ul>
+    {% if card.news %}
+      <div class="news">
+        <h5>¿Qué esta pasando?</h5>
+        {% for quote in card.news %}
+          <blockquote>{{ quote.txt }}</blockquote>
+        {% endfor %}
+      </div>
+    {% endif %}
 
-			<div class="row">
-				<div class="col-md-5 counter">
-					<ul class="list-inline citizen-support-{{ card.id }}">
-						{% for nro in card.citizens_cnt %}
-						<li>{{nro}}</li>
-						{% endfor %}
-					</ul>
-				</div>
-				<div class="col-md-7 align-ciudadanos">
-					Ciudadanos
-					<a id="vote-{{card.id}}" class="btn btn-sm btn-success" href="" ng-click="addVote({{card.id}})">Apoya esta propuesta</a>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="support">
+      <div class="row">
+        <div class="col-md-6 counter">
+          <ul class="list-inline">
+            {% for nro in card.citizens_cnt %}
+            <li>{{nro}}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="col-md-6 align-ciudadanos">
+          Ciudadanos que apoyan la propuesta
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <a id="vote-{{card.id}}" class="btn btn-sm btn-success" href="" ng-click="addVote({{card.id}})">Apoyar</a>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

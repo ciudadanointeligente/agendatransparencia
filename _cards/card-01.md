@@ -1,72 +1,17 @@
 ---
-status: rechazada
+status: en discusion
 id: 01
-title: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-quotes:
-  - txt: Lorem ipsum dolor sit amet, dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  - txt: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-parliamentarians_cnt: [0,0,0]
+title: Servel fortalecido con autonomía constitucional
+importance:
+  - txt: Necesitamos un Servel con autonomía constitucional y atribuciones de fiscalización, dotación de personal y presupuesto adecuado para cumplir su rol.
+  - txt: Este Servel debe debe contar con estas atribuciones para las próximas elecciones municipales.
+  - txt: Necesitamos un Servel que pueda efectivamente fiscalizar las campañas electorales y su financiamiento.
+news:
+  - txt: El proyecto que establece la autonomía constitucional del Servel fue aprobado por la Comisión de Constitución de la Cámara y será votado próximamente en la Sala.
 citizens_cnt: [0,0,0]
-parties:
-  -
-    name: Amplitud (3)
-    support: false
-    parliamentarians:  [lala, lolo]
-  -
-    name: DC (29)
-    support: false
-    parliamentarians: [lala, lolo]
-  -
-    name: Evopoli (1)
-    support: false
-    parliamentarians:  [lala, lolo]
-  -
-    name: IA (1)
-    support: false
-    parliamentarians:  [lala, lolo]
-  -
-    name: IC (1)
-    support: false
-    parliamentarians:  [lala, lolo]
-  -
-    name: MAS (1)
-    support: false
-    parliamentarians: [lala, lolo]
-  -
-    name: PC (6)
-    support: false
-    parliamentarians: [lala, lolo]
-  -
-    name: PL (1)
-    support: false
-    parliamentarians:  [lala, lolo]
-  -
-    name: PPD (21)
-    support: false
-    parliamentarians: [lala, lolo]
-  -
-    name: PRSD (7)
-    support: false
-    parliamentarians:  [lala, lolo]
-  -
-    name: PS (23)
-    support: false
-    parliamentarians: [lala, lolo]
-  -
-    name: RD (1)
-    support: false
-    parliamentarians:  [lala, lolo]
-  -
-    name: RN (21)
-    support: false
-    parliamentarians: [lala, lolo]
-  -
-    name: UDI (37)
-    support: false
-    parliamentarians: [lala, lolo]
+details: true
 ---
 
-* En agenda: Reforma constitucional de autonomía del Servel (enlace: http://www.agendadeprobidad.gob.cl/?ver=2283)
-* En agenda: Proyecto de LOC del Servel (enlace: http://www.agendadeprobidad.gob.cl/?ver=2291)
-* En agenda: Institucionalidad del TRICEL y TER (enlace: http://www.agendadeprobidad.gob.cl/?ver=2288)
+* 19 de mayo de 2015 el Gobierno ingresó proyecto de ley de Reforma constitucional de autonomía del Servel, [boletín Nº 10055-07](http://camara.cl/pley/pley_detalle.aspx?prmID=10478&prmBL=10055-07), Primer trámite en la Cámara de Diputados.
+* Pendiente: Proyecto de LOC del Servel. [Ver](http://www.agendadeprobidad.gob.cl/?ver=2291)
+* Pendiente: Institucionalidad del TRICEL y TER. [Ver](http://www.agendadeprobidad.gob.cl/?ver=2288)
