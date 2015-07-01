@@ -9,6 +9,7 @@ importance:
 news:
   - txt: El proyecto que establece la autonomía constitucional del Servel fue aprobado por la Comisión de Constitución de la Cámara y será votado próximamente en la Sala.
 citizens_cnt: [0,0,0]
+details: true
 ---
 
 * 19 de mayo de 2015 el Gobierno ingresó proyecto de ley de Reforma constitucional de autonomía del Servel, [boletín Nº 10055-07](http://camara.cl/pley/pley_detalle.aspx?prmID=10478&prmBL=10055-07), Primer trámite en la Cámara de Diputados.

@@ -7,6 +7,7 @@ importance:
 news:
   - txt: El proyecto ingresó al Congreso el 18 de junio de 2015 y está pendiente de discusión.
 citizens_cnt: [0,0,0]
+details: true
 ---
 
 * El 18 de junio de 2015 el Gobierno presentó un proyecto de ley que Tipifica  el  delito  de  corrupción  entre particulares  y  modifica  disposiciones  del  Código  Penal  relativas  a  delitos funcionarios, boletín  N°  10155-07. [Ver](http://camara.cl/pley/pley_detalle.aspx?prmID=10565&prmBL=10155-07)

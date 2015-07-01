@@ -12,6 +12,7 @@ news:
   - txt: El proyecto fue aprobado por la Comisión de Constitución de la Cámara y se encuentra en discusión en la Comisión de Hacienda.
   - txt: Respecto al texto aprobado, <a href="http://blog.ciudadanointeligente.org/post/122872674414/minuta-observaciones-proyecto-de-ley-de" target="_blank">revisa las observaciones</a> de la Fundación Ciudadano Inteligente
 citizens_cnt: [0,0,0]
+details: true
 ---
 
 * 16 de diciembre de 2014 el Gobierno ingresó Proyecto de ley de fortalecimiento y transparencia de la democracia, Boletín Nº 9790-07. [Ver](http://camara.cl/pley/pley_detalle.aspx?prmID=10201&prmBL=9790-07), en primer trámite en la Cámara de Diputados

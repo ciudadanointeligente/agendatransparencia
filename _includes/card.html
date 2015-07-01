@@ -4,7 +4,7 @@
 			<li><span class="label label-{{ card.status | replace:' ','-' }}">{{ card.status }}</span></li>
 		</ul>
 		<div class="card-description">
-			{% if card.content %}
+			{% if card.details %}
 				<a href="#" data-toggle="modal" data-target="#myModal-{{ card.id }}">Detalles</i></a>
 			{% endif %}
 			<h3>
