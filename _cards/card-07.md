@@ -1,68 +1,13 @@
 ---
-status: en proceso
+status: en discusion
 id: 07
-title: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-quotes:
-  - txt: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  - txt: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-parliamentarians_cnt: [0,0,0]
+title: Fortalecimiento Institucional de los Gobiernos Municipales 
+importance:
+  - txt: Se requieren normas que incorporen polìticas de probidad, restricciones a la contratación de personal en meses anteriores a las campañas políticas, altos estándares de gestión e información financiera (con el debido apoyo del gobierno central en su implementación) y la realización periódica de auditorías por parte de la CGR.
 citizens_cnt: [0,0,0]
-parties:
-  -
-    name: Amplitud (3)
-    support: false
-    parliamentarians:  [lala, lolo]
-  -
-    name: DC (29)
-    support: false
-    parliamentarians: [lala, lolo]
-  -
-    name: Evopoli (1)
-    support: false
-    parliamentarians:  [lala, lolo]
-  -
-    name: IA (1)
-    support: false
-    parliamentarians:  [lala, lolo]
-  -
-    name: IC (1)
-    support: false
-    parliamentarians:  [lala, lolo]
-  -
-    name: MAS (1)
-    support: false
-    parliamentarians: [lala, lolo]
-  -
-    name: PC (6)
-    support: false
-    parliamentarians: [lala, lolo]
-  -
-    name: PL (1)
-    support: false
-    parliamentarians:  [lala, lolo]
-  -
-    name: PPD (21)
-    support: false
-    parliamentarians: [lala, lolo]
-  -
-    name: PRSD (7)
-    support: false
-    parliamentarians:  [lala, lolo]
-  -
-    name: PS (23)
-    support: false
-    parliamentarians: [lala, lolo]
-  -
-    name: RD (1)
-    support: false
-    parliamentarians:  [lala, lolo]
-  -
-    name: RN (21)
-    support: false
-    parliamentarians: [lala, lolo]
-  -
-    name: UDI (37)
-    support: false
-    parliamentarians: [lala, lolo]
 ---
+
+* El 19 de mayo de 2015 el Gobierno ingresó el proyecto de ley que Modifica disposiciones aplicables a los funcionarios municipales y entrega nuevas competencias a la Subsecretaría de Desarrollo Regional y Administrativo. [Ver](http://camara.cl/pley/pley_detalle.aspx?prmID=10479&prmBL=10057-06)
+* Lineamientos de uso adecuado de recursos. [Ver](http://www.agendadeprobidad.gob.cl/?ver=2268)
+* Modificación de Ordenanza para aprobación de planes de urbanismo. [Ver](http://www.agendadeprobidad.gob.cl/?ver=2273)
+* Mensaje para impedir especulación en uso de suelos. [Ver](http://www.agendadeprobidad.gob.cl/?ver=2277)

@@ -18,6 +18,10 @@ h1 {
   font-weight: 100;
  }
 
+h4, .h4 {
+  line-height: 28px;
+}
+
  h5 {
   font-weight: 500;
  }
@@ -314,7 +318,6 @@ footer a img:hover {
 /*HERO*/
 
 .hero h1 {
-	color: $blue;
 	margin: 30px 0 60px;
 }
 
@@ -1014,20 +1017,49 @@ span.paring {
   padding: 15px;
 }
 
+.news {
+  background-color: $blue;
+  padding: 15px;
+  color: #FFFFFF;
+}
+
+.news blockquote {
+  border-left: 4px solid #FFFFFF;
+}
+
+.news a {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+.news a:hover, .news a:visited, .news a:active {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+.full-width {
+  width: 100%;
+}
+
 .card-description {
 	padding: 15px;
 }
 
-.label-rechazada {
-  background-color: $red;
+.label-en-discusion {
+  background-color: $purple;
 }
 
 .label-aprobada {
   background-color: $blue;
 }
 
-.label-en-proceso {
-  background-color: $purple;
+.label-rechazada {
+  background-color: $red;
+}
+
+
+.label-pendiente {
+  background-color: $darkgrey;
 }
 
 .counter {
@@ -1038,9 +1070,9 @@ span.paring {
 .counter li {
   background: url(../img/counter-bg.png) no-repeat;
   color: #fff;
-  font-size: 36px;
+  font-size: 42px;
   line-height: 46px;
-  padding: 0px 7px;
+  padding: 6px 8px;
 }
 
 li.party span {
@@ -1048,10 +1080,17 @@ li.party span {
   margin-bottom: 6px;
 }
 
+ul {
+  margin-left: 15px;
+}
+
 .box .label {
-  margin-right: -7px;
-  border-radius: 0;
-  padding: 5px 12px;
+    margin-right: -6px;
+    border-radius: 0;
+    padding: 5px 12px;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 1px;
 }
 
 .align-parlamentarios {
@@ -1060,7 +1099,7 @@ li.party span {
 }
 
 .align-ciudadanos {
-  margin-top: -5px;
+  margin-top: 6px;
 }
 
 

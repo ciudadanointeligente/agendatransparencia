@@ -1,68 +1,12 @@
 ---
-status: aprobada
+status: en discusion
 id: 06
-title: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-quotes:
-  - txt: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  - txt: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-parliamentarians_cnt: [0,0,0]
+title: Revisar la tipificación de cohecho
+importance:
+  - txt: Es necesario que sean revisadas las sanciones, de acuerdo a los estándares internacionales y que se sancione de acuerdo a la gravedad que reviste este delito.
+news:
+  - txt: El proyecto ingresó al Congreso el 18 de junio de 2015 y está pendiente de discusión.
 citizens_cnt: [0,0,0]
-parties:
-  -
-    name: Amplitud (3)
-    support: false
-    parliamentarians:  [lala, lolo]
-  -
-    name: DC (29)
-    support: false
-    parliamentarians: [lala, lolo]
-  -
-    name: Evopoli (1)
-    support: false
-    parliamentarians:  [lala, lolo]
-  -
-    name: IA (1)
-    support: false
-    parliamentarians:  [lala, lolo]
-  -
-    name: IC (1)
-    support: false
-    parliamentarians:  [lala, lolo]
-  -
-    name: MAS (1)
-    support: false
-    parliamentarians: [lala, lolo]
-  -
-    name: PC (6)
-    support: false
-    parliamentarians: [lala, lolo]
-  -
-    name: PL (1)
-    support: false
-    parliamentarians:  [lala, lolo]
-  -
-    name: PPD (21)
-    support: false
-    parliamentarians: [lala, lolo]
-  -
-    name: PRSD (7)
-    support: false
-    parliamentarians:  [lala, lolo]
-  -
-    name: PS (23)
-    support: false
-    parliamentarians: [lala, lolo]
-  -
-    name: RD (1)
-    support: false
-    parliamentarians:  [lala, lolo]
-  -
-    name: RN (21)
-    support: false
-    parliamentarians: [lala, lolo]
-  -
-    name: UDI (37)
-    support: false
-    parliamentarians: [lala, lolo]
 ---
+
+* El 18 de junio de 2015 el Gobierno presentó un proyecto de ley que Tipifica  el  delito  de  corrupción  entre particulares  y  modifica  disposiciones  del  Código  Penal  relativas  a  delitos funcionarios, boletín  N°  10155-07. [Ver](http://camara.cl/pley/pley_detalle.aspx?prmID=10565&prmBL=10155-07)
