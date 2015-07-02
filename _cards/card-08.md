@@ -1,6 +1,6 @@
 ---
 status: pendiente
-id: 08
+id: 8
 title: Defensor Ciudadano
 importance:
   - txt: Es necesario contar con una institucionalidad autónoma que cumpla el rol de defensa de los derechos de los ciudadanos frente a los actos de la Administración Pública.
