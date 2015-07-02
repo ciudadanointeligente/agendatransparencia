@@ -14,6 +14,10 @@ h1 {
   font-weight: 100;
 }
 
+h2 {
+  font-weight: 100;
+}
+
  h3 {
   font-weight: 100;
  }
@@ -324,7 +328,6 @@ footer a img:hover {
 /*HERO*/
 
 .hero h1 {
-  color: $blue;
   margin: 30px 0 60px;
 }
 
@@ -620,6 +623,10 @@ p.twitter-share{
 
 .item{
   margin-bottom: 20px;
+}
+
+.navbar-brand {
+  padding: 15px 0px;
 }
 
 .mainNav {
@@ -1082,12 +1089,11 @@ span.paring {
 }
 
 #counter li {
-  background: url(../img/counter-bg.png) center no-repeat;
+  background: url(../img/counter-bg-big.png) center no-repeat;
   color: #fff;
-  font-size: 42px;
-  line-height: 46px;
-  padding: 6px 8px;
-  /*letter-spacing: 15px;*/
+  font-size: 75px;
+  padding: 0px 16px;
+  font-weight: 100;
 }
 
 li.party span {
@@ -1152,6 +1158,16 @@ textarea {
   margin-bottom: 90px;
 }
 
+.manifiesto {
+  background-color: #ffffff;
+  padding: 70px 70px 130px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.21);
+  margin-bottom: 50px;
+}
+
+.manifiesto h1 {
+  margin: 0px 0 50px;
+}
 
 /*MEDIA QUERIES*/
 
