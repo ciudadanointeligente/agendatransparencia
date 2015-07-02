@@ -1,5 +1,9 @@
 <div class="col-md-4">
   <div class="box">
+    <div class="text-left tweet-btn">
+      <a class="twitter-share-button btn btn-primary btn-xs" href="https://twitter.com/intent/tweet?text={{ card.title }}" data-via="ciudadanoi" target="_top">Twittea</a>
+    </div>
+
     <ul class="list-inline status text-right">
       <li><span class="label label-{{ card.status | replace:' ','-' }}">{{ card.status }}</span></li>
     </ul>
