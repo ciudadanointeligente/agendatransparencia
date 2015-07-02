@@ -1020,7 +1020,6 @@ span.paring {
 }
 
 .support {
-  background-color: $lightgrey;
   padding: 15px;
 }
 
@@ -1080,6 +1079,15 @@ span.paring {
   font-size: 42px;
   line-height: 46px;
   padding: 6px 8px;
+}
+
+#counter li {
+  background: url(../img/counter-bg.png) center no-repeat;
+  color: #fff;
+  font-size: 42px;
+  line-height: 46px;
+  padding: 6px 8px;
+  /*letter-spacing: 15px;*/
 }
 
 li.party span {

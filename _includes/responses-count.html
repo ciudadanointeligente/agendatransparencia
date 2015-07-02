@@ -1,4 +1,10 @@
-<div id="counter"></div>
+<div id="counter">
+  <ul class="list-inline">
+    <li>0</li>
+    <li>0</li>
+    <li>0</li>
+  </ul>
+</div>
 
 <script src="/js/tabletop.js"></script>
 <script type="text/javascript">
@@ -20,6 +26,8 @@
 
       cnt++;
     })
-    el_div.innerHTML=cnt
+console.log(cnt.toString().length)
+    if( cnt.toString().length==1 )
+      el_div>ul>li(3).innerHTML=cnt
   }
 </script>

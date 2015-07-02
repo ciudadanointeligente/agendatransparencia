@@ -21,6 +21,12 @@ layout: default
 
     <h4>Lxs ciudadanxs somos la base de una democracia de todxs, con todxs, para todxs y estamos disponibles para ayudar. <strong>Por eso hoy #LxsCiudadanxsQueremos.</strong></h4>
 
+    <!-- Responses count -->
+      <div class="text-center">
+        {% include responses-count.html %}
+        Ciudadanos han firmado
+      </div>
+      
     <!-- Form -->
     <div class="row support-form">
       <form action="https://docs.google.com/a/votainteligente.cl/forms/d/1JNhygg4moz4phH3fOXcrbUeVSr5cdNVMpFoOkyAiolk/formResponse" method="POST" id="ss-form" target="_self" onsubmit=""><ol role="list" class="ss-question-list" style="padding-left: 0">
@@ -46,7 +52,6 @@ layout: default
         </div>
       </form>
     </div>
-    {% include responses-count.html %}
     <!-- End Form -->
 
 
