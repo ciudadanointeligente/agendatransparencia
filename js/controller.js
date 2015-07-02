@@ -38,5 +38,6 @@ function vote(data) {
   //set cookie for disallow voting button
   Cookies.set('card-'+data.id, 'vote-'+data.id, { expires: 7, path: '/' });
   $('#vote-'+data.id).attr('disabled','disabled');
+  $('#vote-'+data.id).html('Gracias por tu apoyo');
   counter_votes(data);
 }
