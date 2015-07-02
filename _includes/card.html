@@ -62,11 +62,13 @@
         x++;
       }
 
-      // $.get('{{ site.herokuapp }}', function(data){
-      //   $.each(data, function(k,v){
-      //       counter_votes(v);
-      //   })
-      // })
+      if( $('#cards').length ) {
+        $.get('{{ site.herokuapp }}', function(data){
+          $.each(data, function(k,v){
+              counter_votes(v);
+          })
+        })
+      }
 
     })
   </script>

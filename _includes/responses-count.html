@@ -1,9 +1,12 @@
-<div id="counter">
-  <ul class="list-inline">
-    <li>0</li>
-    <li>0</li>
-    <li>0</li>
-  </ul>
+<div class="text-center">
+  <div id="counter">
+    <ul class="list-inline">
+      <li>0</li>
+      <li>0</li>
+      <li>0</li>
+    </ul>
+  </div>
+  Ciudadanos han firmado
 </div>
 
 <script src="/js/tabletop.js"></script>
@@ -26,8 +29,25 @@
 
       cnt++;
     })
-console.log(cnt.toString().length)
-    if( cnt.toString().length==1 )
-      el_div>ul>li(3).innerHTML=cnt
+
+    if( cnt.toString().length==1 ) {
+      el_ul = el_div.lastElementChild;
+      el_ul.lastElementChild.textContent = cnt;
+      // el_div>ul>li(3).innerHTML=cnt
+    }
+
+    if( cnt.toString().length==2 ) {//79
+      el_ul = el_div.lastElementChild;
+      el_ul.children[1].textContent = cnt.toString()[0];
+      el_ul.lastElementChild.textContent = cnt.toString()[1];
+    }
+
+    if( cnt.toString().length==3 ) {//123
+      el_ul = el_div.lastElementChild;
+      el_ul.firstElementChild.textContent = cnt.toString()[0];
+      el_ul.children[1].textContent = cnt.toString()[1];
+      el_ul.lastElementChild.textContent = cnt.toString()[2];
+    }
+
   }
 </script>
