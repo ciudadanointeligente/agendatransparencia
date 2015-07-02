@@ -42,6 +42,12 @@ h4, .h4 {
   color: $darkpurple;
  }
 
+ input {
+  height: 42px;
+  border: none;
+  padding: 10px;
+}
+
  .text-width {
   max-width: 800px;
   margin: 0 auto;
@@ -1123,6 +1129,13 @@ textarea {
   text-align: center;
   font-size: 22px;
   height: 3em;
+}
+
+
+/*Manifiesto*/
+
+.row.support-form {
+  margin-bottom: 90px;
 }
 
 
