@@ -702,6 +702,16 @@ a.btn {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bd10e0', endColorstr='#f55923',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
+.btn-primary {
+  background: $blue;
+  border: none;
+}
+
+.tweet-btn {
+  float: left;
+  margin-left: 15px;
+}
+
 .contact a{
   color: #ffffff;
 }
