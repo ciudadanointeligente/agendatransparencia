@@ -60,8 +60,9 @@ h4, .h4 {
 
 
 .site-header {
-    min-height: 95px;
-    padding: 10px;
+  padding: 10px;
+  position: relative;
+  background-color: #FFFFFF;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -167,7 +168,7 @@ h4, .h4 {
 
 a.navbar-brand {
   font-size: 20px;
-  padding-top: 9px;
+  padding-top: 5px;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -188,10 +189,8 @@ ul.nav.navbar-nav.navbar-right {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   float: right;
-  margin-top: 23px;
   margin-left: -100px;
   text-transform: lowercase;
-  display: none;
 }
 
 
@@ -730,8 +729,7 @@ a.btn {
 }
 
 .tweet-btn {
-  float: left;
-  margin-left: 15px;
+  margin: -13px 0 30px;
 }
 
 .contact a{
