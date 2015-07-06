@@ -12,6 +12,6 @@ citizens_cnt: [0,0,0]
 details: true
 ---
 
-* 19 de mayo de 2015 el Gobierno ingresó proyecto de ley de Reforma constitucional de autonomía del Servel, [boletín Nº 10055-07](http://camara.cl/pley/pley_detalle.aspx?prmID=10478&prmBL=10055-07), Primer trámite en la Cámara de Diputados.
-* Pendiente: Proyecto de LOC del Servel. [Ver](http://www.agendadeprobidad.gob.cl/?ver=2291)
-* Pendiente: Institucionalidad del TRICEL y TER. [Ver](http://www.agendadeprobidad.gob.cl/?ver=2288)
+* 19 de mayo de 2015 el Gobierno ingresó proyecto de ley de Reforma constitucional de autonomía del Servel, boletín Nº 10055-07, Primer trámite en la Cámara de Diputados.<a href="http://camara.cl/pley/pley_detalle.aspx?prmID=10478&prmBL=10055-07" target="_blank">Ver</a>
+* Pendiente: Proyecto de LOC del Servel. <a href="http://www.agendadeprobidad.gob.cl/?ver=2291" target="_blank">Ver</a>
+* Pendiente: Institucionalidad del TRICEL y TER. <a href="http://www.agendadeprobidad.gob.cl/?ver=2288" target="_blank">Ver</a>

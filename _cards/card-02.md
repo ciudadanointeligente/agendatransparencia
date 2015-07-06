@@ -15,5 +15,5 @@ citizens_cnt: [0,0,0]
 details: true
 ---
 
-* 16 de diciembre de 2014 el Gobierno ingresó Proyecto de ley de fortalecimiento y transparencia de la democracia, Boletín Nº 9790-07. [Ver](http://camara.cl/pley/pley_detalle.aspx?prmID=10201&prmBL=9790-07), en primer trámite en la Cámara de Diputados
+* 16 de diciembre de 2014 el Gobierno ingresó Proyecto de ley de fortalecimiento y transparencia de la democracia, Boletín Nº 9790-07, en primer trámite en la Cámara de Diputados. <a href="http://camara.cl/pley/pley_detalle.aspx?prmID=10201&prmBL=9790-07" target="_blank">Ver</a>
 * 9 de junio de 2015 la Comisión de Constitución lo aprobó en particular.

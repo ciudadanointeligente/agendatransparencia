@@ -13,5 +13,5 @@ citizens_cnt: [0,0,1]
 details: true
 ---
 
-* En agenda de probidad del Gobierno. [Ver](http://www.agendadeprobidad.gob.cl/?ver=2276)
-* Proyecto de ley que modifica la Ley de Transparencia. [Ver](http://camara.cl/pley/pley_detalle.aspx?prmID=8086&prmBL=7686-07)
+* En agenda de probidad del Gobierno. <a href="http://www.agendadeprobidad.gob.cl/?ver=2276" target="_blank">Ver</a>
+* Proyecto de ley que modifica la Ley de Transparencia. <a href="http://camara.cl/pley/pley_detalle.aspx?prmID=8086&prmBL=7686-07" target="_blank">Ver</a>

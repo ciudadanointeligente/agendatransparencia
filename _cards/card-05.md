@@ -8,4 +8,4 @@ citizens_cnt: [0,0,0]
 details: true
 ---
 
-* En Agenda de Probidad del Gobierno. [Ver](http://www.agendadeprobidad.gob.cl/?ver=2276)
+* En Agenda de Probidad del Gobierno. <a href="http://www.agendadeprobidad.gob.cl/?ver=2276" target="_blank">Ver</a>

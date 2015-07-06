@@ -8,7 +8,7 @@ citizens_cnt: [0,0,0]
 details: true
 ---
 
-* El 19 de mayo de 2015 el Gobierno ingresó el proyecto de ley que Modifica disposiciones aplicables a los funcionarios municipales y entrega nuevas competencias a la Subsecretaría de Desarrollo Regional y Administrativo. [Ver](http://camara.cl/pley/pley_detalle.aspx?prmID=10479&prmBL=10057-06)
-* Lineamientos de uso adecuado de recursos. [Ver](http://www.agendadeprobidad.gob.cl/?ver=2268)
-* Modificación de Ordenanza para aprobación de planes de urbanismo. [Ver](http://www.agendadeprobidad.gob.cl/?ver=2273)
-* Mensaje para impedir especulación en uso de suelos. [Ver](http://www.agendadeprobidad.gob.cl/?ver=2277)
+* El 19 de mayo de 2015 el Gobierno ingresó el proyecto de ley que Modifica disposiciones aplicables a los funcionarios municipales y entrega nuevas competencias a la Subsecretaría de Desarrollo Regional y Administrativo. <a href="http://camara.cl/pley/pley_detalle.aspx?prmID=10479&prmBL=10057-06" target="_blank">Ver</a>
+* Lineamientos de uso adecuado de recursos. <a href="http://www.agendadeprobidad.gob.cl/?ver=2268" target="_blank">Ver</a>
+* Modificación de Ordenanza para aprobación de planes de urbanismo. <a href="http://www.agendadeprobidad.gob.cl/?ver=2273" target="_blank">Ver</a>
+* Mensaje para impedir especulación en uso de suelos. <a href="http://www.agendadeprobidad.gob.cl/?ver=2277" target="_blank">Ver</a>
