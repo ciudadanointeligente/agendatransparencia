@@ -11,7 +11,8 @@
  }
 
 h1 {
-  font-weight: 100;
+  font-weight: 300;
+  font-size: 46px;
 }
 
 h2 {
@@ -329,6 +330,20 @@ footer a img:hover {
 
 .hero h1 {
   margin: 30px 0;
+  line-height: 58px;
+}
+
+.hero span.bg-red {
+  color: #FFFFFF;
+  background: $red;
+  padding: 0 4px;
+}
+
+.hero span.bg-blue {
+  color: #FFFFFF;
+  background: $blue;
+  margin-right: 4px;
+  padding: 0 4px;
 }
 
 .progress {

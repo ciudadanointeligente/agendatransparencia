@@ -5,7 +5,25 @@
     </div>
 
     <ul class="list-inline status text-right">
-      <li><span class="label label-{{ card.status | replace:' ','-' }}">{{ card.status }}</span></li>
+      <li>
+        {% if card.status == 'en discusion' %}
+          <span data-toggle="tooltip" title="El Congreso está discutiendo esta propuesta." data-placement="left" class="label label-{{ card.status | replace:' ','-' }}">{{ card.status }}</span>
+        {% endif %}
+        {% if card.status == 'pendiente' %}
+          <span data-toggle="tooltip" title="El Congreso aún no comienza a discutir esta propuesta o parte importante de ella." data-placement="left" class="label label-{{ card.status | replace:' ','-' }}">{{ card.status }}</span>
+        {% endif %}
+        {% if card.status == 'aprobada' %}
+          <span data-toggle="tooltip" title="El Congreso ya discutió y aprobó esta propuesta." data-placement="left" class="label label-{{ card.status | replace:' ','-' }}">{{ card.status }}</span>
+        {% endif %}
+        {% if card.status == 'rechazada' %}
+          <span data-toggle="tooltip" title="El Congreso está discutiendo esta propuesta." data-placement="left" class="label label-{{ card.status | replace:' ','-' }}">{{ card.status }}</span>
+        {% endif %}
+        {% if card.status == 'aprobada parcialmente' %}
+          <span data-toggle="tooltip" title="El Congreso discutió esta propuesta y la aprobó parcialmente." data-placement="left" class="label label-{{ card.status | replace:' ','-' }}">{{ card.status }}</span>
+        {% endif %}
+      </li>
+
+
     </ul>
     <div class="card-description">
       {% if card.details %}
@@ -75,5 +93,9 @@
         })
       }
 
+    })
+
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
     })
   </script>
