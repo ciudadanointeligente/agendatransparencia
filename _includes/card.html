@@ -62,6 +62,7 @@
         if( Cookies.get('card-'+x) ) {
             var card_name = Cookies.get('card-'+x);
             $('#'+card_name).attr('disabled','disabled');
+            $('#'+card_name).html('Gracias por tu apoyo');
         }
         x++;
       }
