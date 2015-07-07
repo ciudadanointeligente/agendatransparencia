@@ -1,7 +1,7 @@
 # site settings
 title: Agenda transparencia
 email: prensa@ciudadanointeligente.org
-description: Estos son los 15 puntos clave del Informe Anticorrupción según Ciudadano Inteligente. ¡Difunde!
+description: Descubre y fiscaliza las 9 medidas de la AgendaTransparencia que están en riesgo de no ser ley.
 baseurl: '//beta.agendatransparencia.cl' #example: '/agendatransparencia'
 basedomain: beta.agendatransparencia.cl #ciudadanointeligente.github.io
 analytics: 'UA-41822715-6'
