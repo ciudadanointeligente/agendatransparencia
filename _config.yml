@@ -2,7 +2,7 @@
 title: Agenda transparencia
 email: prensa@ciudadanointeligente.org
 description: Descubre y fiscaliza las 9 medidas de la AgendaTransparencia que están en riesgo de no ser ley.
-baseurl: 'http://agendatransparencia.cl' #example: '/agendatransparencia'
+baseurl: 'agendatransparencia.cl' #example: '/agendatransparencia'
 basedomain: agendatransparencia.cl #ciudadanointeligente.github.io
 analytics: 'UA-41822715-6'
 
