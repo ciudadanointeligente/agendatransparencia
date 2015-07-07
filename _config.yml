@@ -2,8 +2,8 @@
 title: Agenda transparencia
 email: prensa@ciudadanointeligente.org
 description: Estos son los 15 puntos clave del Informe Anticorrupción según Ciudadano Inteligente. ¡Difunde!
-baseurl: '//beta.agendatransparencia.cl' #example: '/agendatransparencia'
-basedomain: beta.agendatransparencia.cl #ciudadanointeligente.github.io
+baseurl: '//agendatransparencia.cl' #example: '/agendatransparencia'
+basedomain: agendatransparencia.cl #ciudadanointeligente.github.io
 analytics: 'UA-41822715-6'
 
 # social
