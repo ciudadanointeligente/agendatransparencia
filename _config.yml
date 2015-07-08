@@ -15,7 +15,7 @@ twitter_txt: 'Yo opino del Informe Anticorrupción lo siguiente...'
 markdown: kramdown
 
 #herokuapp
-herokuapp: '//atransparencia.herokuapp.com/proposals'
+herokuapp: '//api.agendatransparencia.cl/proposals'
 
 collections:
   cards:
