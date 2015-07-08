@@ -8,6 +8,7 @@ importance:
   - txt: Se deben aplicar normas de transparencia activa y pasiva a los partidos.
 news:
   - txt: El proyecto que modifica la Ley Orgánica de Partidos Políticos ingresó al Congreso el 23 de junio de 2015.
+  - txt: Se comenzó a discutir el proyecto en la Comisión de Constitución de la Cámara de Diputados.
 citizens_cnt: [0,0,0]
 details: true
 ---
