@@ -7,7 +7,7 @@ importance:
   - txt: Este Servel debe debe contar con estas atribuciones para las próximas elecciones municipales.
   - txt: Necesitamos un Servel que pueda efectivamente fiscalizar las campañas electorales y su financiamiento.
 news:
-  - txt: El proyecto que establece la autonomía constitucional del Servel fue aprobado por la Comisión de Constitución de la Cámara y será votado próximamente en la Sala.
+  - txt: El proyecto que establece la autonomía constitucional del Servel fue aprobado por la Cámara de Diputados y será discutido próximamente en el Senado.
 citizens_cnt: [0,0,0]
 details: true
 ---

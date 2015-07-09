@@ -1161,6 +1161,19 @@ ul {
   margin-top: 6px;
 }
 
+#cards {
+  position: relative;
+  margin-top: 100px;
+}
+
+#cards:before {
+  content: url(../img/ciudadanos.png);
+  top: -90px;
+  left: 50%;
+  position: absolute;
+  margin-left: -179px;
+}
+
 
 /*MEME GENERATOR*/
 #main {
@@ -1192,6 +1205,12 @@ textarea {
   color: #333;
   margin-bottom: 15px;
 }
+
+.manifiesto span {
+  color: #fff;
+  background-color: $blue;
+}
+
 .row.support-form {
   margin-bottom: 90px;
 }
