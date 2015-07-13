@@ -1,4 +1,5 @@
 ---
+layout: card-view
 status: en discusion
 id: 03
 title: Nueva Ley de Partidos Políticos

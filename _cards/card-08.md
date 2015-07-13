@@ -1,4 +1,5 @@
 ---
+layout: card-view
 status: pendiente
 id: 8
 title: Defensor Ciudadano

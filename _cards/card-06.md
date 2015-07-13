@@ -1,4 +1,5 @@
 ---
+layout: card-view
 status: en discusion
 id: 06
 title: Revisar la tipificación de cohecho

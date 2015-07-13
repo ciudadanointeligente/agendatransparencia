@@ -1,4 +1,5 @@
 ---
+layout: card-view
 status: en discusion
 id: 02
 title: Transparencia en el financiamiento de campañas y partidos

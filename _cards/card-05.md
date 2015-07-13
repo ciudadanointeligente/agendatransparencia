@@ -1,4 +1,5 @@
 ---
+layout: card-view
 status: en discusion
 id: 05
 title: Regular la “puerta giratoria” entre sector público y privado

@@ -1,4 +1,5 @@
 ---
+layout: card-view
 status: pendiente
 id: 04
 title: Sistema integral de transparencia

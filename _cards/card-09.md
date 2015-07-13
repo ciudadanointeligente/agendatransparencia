@@ -1,4 +1,5 @@
 ---
+layout: card-view
 status: pendiente
 id: 9
 title: Fortalecimiento del Congreso Nacional

@@ -1,4 +1,5 @@
 ---
+layout: card-view
 status: en discusion
 id: 07
 title: Fortalecimiento Institucional de los Gobiernos Municipales 
