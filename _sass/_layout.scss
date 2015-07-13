@@ -1117,6 +1117,30 @@ span.paring {
   background-color: $darkgrey;
 }
 
+.urgency {
+  float: left;
+}
+
+.label-urgente {
+  background-color: $red;
+  -webkit-animation: change-width 2s infinite; /* Chrome, Safari, Opera */ 
+  animation: change-width 2s infinite;
+}
+
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes change-width {
+    0%   {background-color: $red}
+    50%  {background-color: $purple}
+    100%   {background-color: $red}
+} 
+
+/* Standard syntax */ 
+@keyframes change-width {
+    0%   {background-color: $red}
+    50%  {background-color: $purple}
+    100%   {background-color: $red}
+}
+
 .counter {
   padding: 0px 20px;
   margin: 0px -30px 0px 0px;
