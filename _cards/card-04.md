@@ -13,7 +13,6 @@ news:
 citizens_cnt: [0,0,1]
 details: true
 permalink: /sistema-integral-de-transparencia.html
-description: 
 twitter_img:
 ---
 

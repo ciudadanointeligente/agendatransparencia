@@ -10,7 +10,6 @@ news:
 citizens_cnt: [0,0,0]
 details: true
 permalink: /revisar-la-tipificacion-de-cohecho.html
-description: 
 twitter_img:
 ---
 

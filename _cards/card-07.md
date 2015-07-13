@@ -8,7 +8,6 @@ importance:
 citizens_cnt: [0,0,0]
 details: true
 permalink: /fortalecimiento-institucional-de-los-gobiernos-municipales.html
-description: 
 twitter_img:
 ---
 

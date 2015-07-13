@@ -10,7 +10,6 @@ news:
 citizens_cnt: [0,0,0]
 details: true
 permalink: /regular-la-puerta-giratoria-entre-sector-publico-y-privado.html
-description: 
 twitter_img:
 ---
 

@@ -15,7 +15,6 @@ news:
 citizens_cnt: [0,0,0]
 details: true
 permalink: /transparencia-en-el-financiamiento-de-campañas-y-partidos.html
-description: 
 twitter_img:
 ---
 

@@ -13,7 +13,6 @@ news:
 citizens_cnt: [0,0,0]
 details: true
 permalink: /nueva-ley-de-partidos-politicos.html
-description: 
 twitter_img:
 ---
 
