@@ -683,7 +683,6 @@ ul.nav.nav-pills {
   padding: 10px 35px;
   font-size: 20px;
   line-height: 1.33;
-  border-radius: 100px;
 }
 
 .btn {
@@ -1234,6 +1233,32 @@ textarea {
 
 h2.hero {
   margin: 80px 0 30px;
+}
+
+/*Card view*/
+
+.card-view {
+  margin: 70px 0;
+}
+
+.card-view .card-description {
+  padding: 15px 40px;
+}
+
+.card-view .news {
+  padding: 15px 40px;
+}
+
+.card-view .support {
+  padding: 15px 40px;
+}
+
+.card-view .align-ciudadanos {
+  margin: 17px 0 10px;
+}
+
+.card-view blockquote {
+  font-size: 15px;
 }
 
 /*MEDIA QUERIES*/

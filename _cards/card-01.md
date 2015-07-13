@@ -1,4 +1,5 @@
 ---
+layout: card-view
 status: en discusion
 id: 01
 title: Servel fortalecido con autonomía constitucional
