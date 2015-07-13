@@ -1,6 +1,14 @@
 <div class="col-md-4 item">
   <div class="box">
 
+    {% if card.urgency %}
+    <ul class="list-inline urgency text-left">
+      <li>
+          <span class="label label-{{ card.urgency | replace:' ','-' }}">{{ card.urgency }}</span>
+      </li>
+    </ul>
+    {% endif %}
+
     <ul class="list-inline status text-right">
       <li>
         {% if card.status == 'en discusion' %}
@@ -19,9 +27,9 @@
           <span data-toggle="tooltip" title="El Congreso discutió esta propuesta y la aprobó parcialmente." data-placement="left" class="label label-{{ card.status | replace:' ','-' }}">{{ card.status }}</span>
         {% endif %}
       </li>
-
-
     </ul>
+
+
     <div class="card-description">
       {% if card.details %}
         <a href="#" data-toggle="modal" data-target="#myModal-{{ card.id }}">Más info</i></a>
