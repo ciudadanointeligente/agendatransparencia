@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
+  <!-- twitter card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="{{ site.twitter_username }}">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="{{ page.description }}">
+  <meta name="twitter:image" content="{{ page.twitter_img }}">
+
   <body>
     {% include header.html %}
-    <div class="card-view">
+    <div id="card" class="card-view">
       <div class="container">
           <div class="col-md-12 item">
             <div class="box">
@@ -26,9 +33,8 @@
                     <span data-toggle="tooltip" title="El Congreso discutió esta propuesta y la aprobó parcialmente." data-placement="left" class="label label-{{ page.status | replace:' ','-' }}">{{ page.status }}</span>
                   {% endif %}
                 </li>
-
-
               </ul>
+
               <div class="card-description">
                 <h1>
                 {{ page.title }}
@@ -100,7 +106,7 @@
                 x++;
               }
 
-              if( $('#cards').length ) {
+              if( $('#card').length ) {
                 $.get('{{ site.herokuapp }}', function(data){
                   $.each(data, function(k,v){
                       counter_votes(v);
