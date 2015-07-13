@@ -169,7 +169,7 @@ h4, .h4 {
 a.navbar-brand {
   font-size: 20px;
   padding-top: 5px;
-  margin-bottom: -24px;
+  margin-bottom: 18px;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -188,8 +188,9 @@ ul.nav.navbar-nav.navbar-right {
 
 .sub-brand {
   font-size: 13px;
-  float: right;
+  float: left;
   text-transform: lowercase;
+  margin-top: 38px;
 }
 
 
@@ -660,6 +661,10 @@ p.twitter-share{
   float: left;
   margin-left: 20px;
   list-style: none;
+}
+
+ul.nav.nav-pills {
+  margin-top: 9px;
 }
 
 .nav>li>a {
@@ -1161,6 +1166,19 @@ ul {
   margin-top: 6px;
 }
 
+#cards {
+  position: relative;
+  margin-top: 100px;
+}
+
+#cards:before {
+  content: url(../img/ciudadanos.png);
+  top: -90px;
+  left: 50%;
+  position: absolute;
+  margin-left: -179px;
+}
+
 
 /*MEME GENERATOR*/
 #main {
@@ -1223,6 +1241,7 @@ h2.hero {
 @media screen and (max-width: 800px) {
     .sub-brand {
         display: inline-block;
+        margin-top: 0px;
     }
 
     .logo-fci {

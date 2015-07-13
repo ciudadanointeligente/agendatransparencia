@@ -1,4 +1,4 @@
-<div class="col-md-4">
+<div class="col-md-4 item">
   <div class="box">
 
     <ul class="list-inline status text-right">
@@ -30,7 +30,7 @@
       {{ card.title }}
       </h3>
       <div class="text-left tweet-btn">
-        <a class="twitter-share-button btn btn-primary btn-xs" onclick="window.open('https://twitter.com/intent/tweet?via=ciudadanoi&url=http%3A%2F%2Fagendatransparencia.cl%2F&text={{ card.title }}','_blank','height=400,width=300')">Twittea</a>
+        <a class="twitter-share-button btn btn-primary btn-xs" onclick="window.open('https://twitter.com/intent/tweet?via=ciudadanoi&url=http%3A%2F%2Fagendatransparencia.cl%2F&text=%20%23LxsCiudadanxsQueremos {{ card.title }}','_blank','height=400,width=300')">Twittea</a>
       </div>
       {% if card.title %}
       {% include modal.html %}

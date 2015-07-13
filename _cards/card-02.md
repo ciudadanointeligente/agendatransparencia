@@ -1,7 +1,7 @@
 ---
 status: en discusion
 id: 02
-title: Financiamiento de campañas y partidos
+title: Transparencia en el financiamiento de campañas y partidos
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 importance:
   - txt: Necesitamos normas que impidan la captura de la política por parte de grupos de interés, como el fin a las donaciones de personas jurídicas.
