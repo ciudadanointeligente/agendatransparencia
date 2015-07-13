@@ -1238,7 +1238,8 @@ h2.hero {
 /*Card view*/
 
 .card-view {
-  margin: 70px 0;
+  margin: 150px 0 100px;
+  position: relative;
 }
 
 .card-view .card-description {
@@ -1259,6 +1260,14 @@ h2.hero {
 
 .card-view blockquote {
   font-size: 15px;
+}
+
+.card-view:before {
+  content: url(../img/ciudadanos.png);
+  top: -90px;
+  left: 50%;
+  position: absolute;
+  margin-left: -179px;
 }
 
 /*MEDIA QUERIES*/
