@@ -12,6 +12,9 @@ news:
   - txt: Se comenzó a discutir el proyecto en la Comisión de Constitución de la Cámara de Diputados.
 citizens_cnt: [0,0,0]
 details: true
+permalink: /nueva-ley-de-partidos-politicos.html
+description: 
+twitter_img:
 ---
 
 * El 23 de junio de 2015 ingresó el proyecto de ley que Fortalece el carácter público y democrático de los partidos políticos y facilita su modernización. <a href="http://camara.cl/pley/pley_detalle.aspx?prmID=10581&prmBL=10154-07" target="_blank">Ver</a>
