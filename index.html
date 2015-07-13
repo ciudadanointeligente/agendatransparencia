@@ -2,9 +2,40 @@
 layout: default
 ---
 
-{% include share_buttons.html %}
-<div class="container">
-	<h1>Estos son los 15 puntos clave del Informe Anticorrupción según Ciudadano Inteligente.</h1><br />
-	<h2>¿Cuáles son los puntos importantes para ti? Ayúdanos a difundir usando #AgendaTransparencia y ¡presionemos juntos!</h2>
+<div class="container hero">
+  <div class="row">
+    <div class="text-left col-md-6">
+
+    </div>
+  </div>
+  <h1 class="text-center"><span class="bg-blue">Estas son las 9 propuestas clave de la agenda transparencia</span><span class="bg-red"> en riesgo de no convertirse en ley</span></h1>
+  <h2 class="text-center">Descubre por qué debemos aprobarlas, en qué está su discusión y apoya las medidas que te parezcan importantes.</h2>
+  <ul class="share-btn list-inline">
+    <li class="text-center">
+      <a class="twitter-share-button btn btn-primary btn-xs" onclick="window.open('https://twitter.com/intent/tweet?via=ciudadanoi&url=http%3A%2F%2Fagendatransparencia.cl%2F&text={{ site.description }}','_blank','height=400,width=300')"><i class="fa fa-twitter"></i> Twittear</a>
+    </li>
+    <li class="fb-share-button" data-href="{{ site.baseurl }}" data-layout="button"></li>
+  </ul>
 </div>
-{% include flyers.html %}
+
+<section id="cards" ng-app="atransparenciaApp">
+  <div class="container" ng-controller="AddVotesCtrl">
+    <div class="row masonry-container">
+
+      {% for card in site.cards %}
+          {% include card.html %}
+
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<script type="">
+  var $container = $('.masonry-container');
+    $container.imagesLoaded( function () {
+      $container.masonry({
+        columnWidth: '.item',
+        itemSelector: '.item'
+      });   
+    });
+</script>

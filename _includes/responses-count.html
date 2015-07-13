@@ -1,0 +1,52 @@
+<div class="text-center">
+  <div id="counter">
+    <ul class="list-inline">
+      <li>0</li>
+      <li>0</li>
+      <li>0</li>
+    </ul>
+  </div>
+</div>
+
+<script src="/js/tabletop.js"></script>
+<script type="text/javascript">
+  window.onload = function() { init();};
+
+  var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1I7hVGDoQ5Clr6xHTI918tN6rpTqCY2Ykt2K-ZVdEdSM/pubhtml';
+
+  function init() {
+  Tabletop.init( { key: public_spreadsheet_url,
+                   callback: showInfo,
+                   simpleSheet: true } )
+  }
+
+  function showInfo(data) {
+    var el_div = document.getElementById('counter');
+
+    var cnt = 0;
+    data.forEach( function(key, value) {
+
+      cnt++;
+    })
+
+    if( cnt.toString().length==1 ) {
+      el_ul = el_div.lastElementChild;
+      el_ul.lastElementChild.textContent = cnt;
+      // el_div>ul>li(3).innerHTML=cnt
+    }
+
+    if( cnt.toString().length==2 ) {//79
+      el_ul = el_div.lastElementChild;
+      el_ul.children[1].textContent = cnt.toString()[0];
+      el_ul.lastElementChild.textContent = cnt.toString()[1];
+    }
+
+    if( cnt.toString().length==3 ) {//123
+      el_ul = el_div.lastElementChild;
+      el_ul.firstElementChild.textContent = cnt.toString()[0];
+      el_ul.children[1].textContent = cnt.toString()[1];
+      el_ul.lastElementChild.textContent = cnt.toString()[2];
+    }
+
+  }
+</script>

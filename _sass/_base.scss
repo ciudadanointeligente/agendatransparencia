@@ -9,7 +9,6 @@ dl, dd, ol, ul, figure {
 }
 
 
-
 /**
  * Basic styling
  */
@@ -18,11 +17,10 @@ body {
     font-size: $base-font-size;
     line-height: $base-line-height;
     font-weight: 300;
-    color: $text-color;
-    background-color: $background-color;
+    color: $darkgrey;
+    background-color: $lightgrey;
     -webkit-text-size-adjust: 100%;
 }
-
 
 
 /**
@@ -36,7 +34,6 @@ ul, ol, dl, figure,
 }
 
 
-
 /**
  * Images
  */
@@ -44,7 +41,6 @@ img {
     max-width: 100%;
     vertical-align: middle;
 }
-
 
 
 /**
@@ -59,8 +55,6 @@ figcaption {
 }
 
 
-
-
 /**
  * Headings
  */
@@ -69,42 +63,36 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
 /**
  * Links
  */
 a {
-    color: $brand-color;
+    color: $purple;
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: $darkpurple;
     }
 
     &:hover {
-        color: $text-color;
+        color: $darkpurple;
         text-decoration: underline;
     }
 }
-
 
 
 /**
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
+    border-left: 4px solid $red;
     padding-left: $spacing-unit / 2;
-    font-size: 18px;
-    letter-spacing: -1px;
-    font-style: italic;
+    font-size: 13px;
 
     > :last-child {
         margin-bottom: 0;
     }
 }
-
 
 
 /**
@@ -113,7 +101,7 @@ blockquote {
 pre,
 code {
     font-size: 15px;
-    border: 1px solid $grey-color-light;
+    border: 1px solid $lightgrey;
     border-radius: 3px;
     background-color: #eef;
 }
@@ -132,7 +120,6 @@ pre {
         padding-left: 0;
     }
 }
-
 
 
 /**
@@ -156,7 +143,6 @@ pre {
 }
 
 
-
 /**
  * Clearfix
  */
@@ -168,7 +154,6 @@ pre {
         clear: both;
     }
 }
-
 
 
 /**
@@ -183,7 +168,7 @@ pre {
         vertical-align: middle;
 
         path {
-            fill: $grey-color;
+            fill: $grey;
         }
     }
 }
