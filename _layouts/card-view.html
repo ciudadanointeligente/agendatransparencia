@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html>
-  {% include head.html %}
-  <!-- twitter card -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="{{ site.twitter_username }}">
-  <meta name="twitter:title" content="{{ page.title }}">
-  <meta name="twitter:description" content="{{ site.description }}">
-  <meta name="twitter:image" content="{{ page.twitter_img }}">
-
+  {% include head-tw.html %}
   <body>
     {% include header.html %}
     <div id="card" class="card-view" ng-app="atransparenciaApp" ng-controller="AddVotesCtrl">
