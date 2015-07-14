@@ -13,7 +13,7 @@ news:
 citizens_cnt: [0,0,1]
 details: true
 permalink: /sistema-integral-de-transparencia.html
-twitter_img: img/card04.png
+twitter_img: /img/card04.png
 ---
 
 * En agenda de probidad del Gobierno. <a href="http://www.agendadeprobidad.gob.cl/?ver=2276" target="_blank">Ver</a>

@@ -13,7 +13,7 @@ news:
 citizens_cnt: [0,0,0]
 details: true
 permalink: /nueva-ley-de-partidos-politicos.html
-twitter_img: img/card03.png
+twitter_img: /img/card03.png
 ---
 
 * El 23 de junio de 2015 ingresó el proyecto de ley que Fortalece el carácter público y democrático de los partidos políticos y facilita su modernización. <a href="http://camara.cl/pley/pley_detalle.aspx?prmID=10581&prmBL=10154-07" target="_blank">Ver</a>
