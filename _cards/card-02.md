@@ -15,7 +15,7 @@ news:
 citizens_cnt: [0,0,0]
 details: true
 permalink: /transparencia-en-el-financiamiento-de-campañas-y-partidos.html
-twitter_img:
+twitter_img: img/card02.png
 ---
 
 * 16 de diciembre de 2014 el Gobierno ingresó Proyecto de ley de fortalecimiento y transparencia de la democracia, Boletín Nº 9790-07, en primer trámite en la Cámara de Diputados. <a href="http://camara.cl/pley/pley_detalle.aspx?prmID=10201&prmBL=9790-07" target="_blank">Ver</a>
