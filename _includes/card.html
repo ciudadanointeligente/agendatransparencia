@@ -1,6 +1,14 @@
 <div class="col-md-4 item">
   <div class="box">
 
+    {% if card.urgency %}
+    <ul class="list-inline urgency text-left">
+      <li>
+          <span class="label label-{{ card.urgency | replace:' ','-' }}">{{ card.urgency }}</span>
+      </li>
+    </ul>
+    {% endif %}
+
     <ul class="list-inline status text-right">
       <li>
         {% if card.status == 'en discusion' %}
@@ -19,9 +27,9 @@
           <span data-toggle="tooltip" title="El Congreso discutió esta propuesta y la aprobó parcialmente." data-placement="left" class="label label-{{ card.status | replace:' ','-' }}">{{ card.status }}</span>
         {% endif %}
       </li>
-
-
     </ul>
+
+
     <div class="card-description">
       {% if card.details %}
         <a href="#" data-toggle="modal" data-target="#myModal-{{ card.id }}">Más info</i></a>
@@ -30,7 +38,7 @@
       {{ card.title }}
       </h3>
       <div class="text-left tweet-btn">
-        <a class="twitter-share-button btn btn-primary btn-xs" onclick="window.open('https://twitter.com/intent/tweet?via=ciudadanoi&url=http%3A%2F%2Fagendatransparencia.cl%2F&text=%20%23LxsCiudadanxsQueremos {{ card.title }}','_blank','height=400,width=300')">Twittea</a>
+        <a class="twitter-share-button btn btn-primary btn-xs" onclick="window.open('https://twitter.com/intent/tweet?via=ciudadanoi&url=http%3A%2F%2Fagendatransparencia.cl{{ card.permalink }}&text=%20%23LxsCiudadanxsQueremos {{ card.title }}','_blank','height=400,width=300')">Twittea</a>
       </div>
       {% if card.title %}
       {% include modal.html %}
