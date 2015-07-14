@@ -1,8 +1,9 @@
 ---
+layout: card-view
 status: en discusion
+urgency: urgente
 id: 02
 title: Transparencia en el financiamiento de campañas y partidos
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 importance:
   - txt: Necesitamos normas que impidan la captura de la política por parte de grupos de interés, como el fin a las donaciones de personas jurídicas.
   - txt: Debemos aumentar los niveles de transparencia y rendición de cuentas en los procesos electorales.
@@ -13,6 +14,8 @@ news:
   - txt: Respecto al texto aprobado, <a href="http://blog.ciudadanointeligente.org/post/122872674414/minuta-observaciones-proyecto-de-ley-de" target="_blank">revisa las observaciones</a> de la Fundación Ciudadano Inteligente
 citizens_cnt: [0,0,0]
 details: true
+permalink: /transparencia-en-el-financiamiento-de-campañas-y-partidos.html
+twitter_img: img/card02.png
 ---
 
 * 16 de diciembre de 2014 el Gobierno ingresó Proyecto de ley de fortalecimiento y transparencia de la democracia, Boletín Nº 9790-07, en primer trámite en la Cámara de Diputados. <a href="http://camara.cl/pley/pley_detalle.aspx?prmID=10201&prmBL=9790-07" target="_blank">Ver</a>

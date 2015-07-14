@@ -1,4 +1,5 @@
 ---
+layout: card-view
 status: pendiente
 id: 04
 title: Sistema integral de transparencia
@@ -11,6 +12,8 @@ news:
   - txt: <a href="https://docs.google.com/document/d/1DHA83YUs7igCZUsoAJeaqFIxCfHX1KrRC4fApc5Bci0/edit?usp=sharing" target="_blank">Revisa la minuta </a> de la Fundación sobre el contenido de dicho proyecto.
 citizens_cnt: [0,0,1]
 details: true
+permalink: /sistema-integral-de-transparencia.html
+twitter_img: img/card04.png
 ---
 
 * En agenda de probidad del Gobierno. <a href="http://www.agendadeprobidad.gob.cl/?ver=2276" target="_blank">Ver</a>
