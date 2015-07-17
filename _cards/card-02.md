@@ -10,7 +10,7 @@ importance:
   - txt: Las sanciones a las infracciones deben inhibir las conductas, tal como la pérdida del cargo de elección popular.
   - txt: Los tiempos de actualización de la información sobre ingresos y gastos electorales se entregue posteriormente a la realización de las campañas, lo que impida su control social.
 news:
-  - txt: El proyecto será discutido y votado en la Sala de la Cámara de Diputados este martes 14 y miércoles 15 de julio.
+  - txt: El proyecto fue aprobado por la Cámara de Diputados el 15 de julio y prontamente será discutido por el Senado.
   - txt: Respecto al texto aprobado, <a href="http://blog.ciudadanointeligente.org/post/124071947704/minuta-observaciones-proyecto-de-ley-de" target="_blank">revisa las observaciones</a> de la Fundación Ciudadano Inteligente
 citizens_cnt: [0,0,0]
 details: true
@@ -19,4 +19,6 @@ twitter_img: /img/card02.png
 ---
 
 * 16 de diciembre de 2014 el Gobierno ingresó Proyecto de ley de fortalecimiento y transparencia de la democracia, Boletín Nº 9790-07, en primer trámite en la Cámara de Diputados. <a href="http://camara.cl/pley/pley_detalle.aspx?prmID=10201&prmBL=9790-07" target="_blank">Ver</a>
-* 9 de junio de 2015 la Comisión de Constitución lo aprobó en particular.
+* 9 de junio de 2015 la Comisión de Constitución de la Cámara de Diputados lo aprobó en particular.
+* 7 de julio de 2015 la Comisión de Hacienda de la Cámara de Diputados lo aprobó en particular.
+* 15 de julio de 2015 fue aprobado en primer trámite por la Cámara de Diputados.
