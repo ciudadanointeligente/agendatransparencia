@@ -10,7 +10,7 @@ importance:
   - txt: Las sanciones a las infracciones deben inhibir las conductas, tal como la pérdida del cargo de elección popular.
   - txt: Los tiempos de actualización de la información sobre ingresos y gastos electorales se entregue posteriormente a la realización de las campañas, lo que impida su control social.
 news:
-  - txt: El proyecto fue aprobado por la Cámara de Diputados el 15 de julio y prontamente será discutido por el Senado.
+  - txt: El proyecto fue aprobado por la Cámara de Diputados el 15 de julio y comenzará a ser discutido por el Senado el jueves 23 de julio.
   - txt: Respecto al texto aprobado, <a href="http://blog.ciudadanointeligente.org/post/124071947704/minuta-observaciones-proyecto-de-ley-de" target="_blank">revisa las observaciones</a> de la Fundación Ciudadano Inteligente
 citizens_cnt: [0,0,0]
 details: true
