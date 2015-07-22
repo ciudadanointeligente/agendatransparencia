@@ -1068,6 +1068,26 @@ span.paring {
   margin-bottom: 30px;
 }
 
+.box.urgente {
+  border: 5px solid $red;
+  -webkit-animation: border-color 2s infinite; /* Chrome, Safari, Opera */ 
+  animation: border-color 2s infinite;
+}
+
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes border-color {
+    0%   {border-color: $red}
+    50%  {border-color: $purple}
+    100%   {border-color: $red}
+} 
+
+/* Standard syntax */ 
+@keyframes border-color {
+    0%   {border-color: $red}
+    50%  {border-color: $purple}
+    100%   {border-color: $red}
+}
+
 .support {
   padding: 15px;
 }
