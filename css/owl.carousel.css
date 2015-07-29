@@ -49,7 +49,7 @@
 }
 
 .owl-item .item p {
-    padding-top: 35px;
+  padding-top: 21px;
 }
 
 .owl-item .item h3 {
@@ -81,37 +81,31 @@
 .owl-btn.next, .owl-btn.prevTwo,
 .owl-btn.nextTwo {
   position: absolute;
-  top: 50%;
+  top: 14px;
   display: block;
-  width: 2.5rem;
-  font-size: 3rem;
-  line-height: 6rem;
-  margin-top: -30px;
-  background: #ffffff;
+  font-size: 7rem;
   text-align: center;
   cursor: pointer;
   transition: all 0.2s;
   -moz-transition: all 0.2s;
   -webkit-transition: all 0.2s;
-  -o-transition: all 0.2s; 
+  -o-transition: all 0.2s;
 }
 
 .owl-btn.prev:hover,
 .owl-btn.next:hover, .owl-btn.prevTwo:hover,
 .owl-btn.nextTwo:hover {
-  color: #ffffff;
+  color: #84009F;
 }
 
 .owl-btn.prev, .owl-btn.prevTwo {
   left: -57px;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+  text-decoration: none;
 }
 
 .owl-btn.next, .owl-btn.nextTwo {
   right: -57px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+  text-decoration: none;
 }
 
 /* mouse grab icon */
