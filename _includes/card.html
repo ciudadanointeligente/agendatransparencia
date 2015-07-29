@@ -1,53 +1,109 @@
-<div class="col-md-4">
-	<div class="box">
-		<ul class="list-inline status text-right">
-			<li><span class="label label-{{ card.status | replace:' ','-' }}">{{ card.status }}</span></li>
-		</ul>
-		<div class="card-description">
-			{% if card.details %}
-				<a href="#" data-toggle="modal" data-target="#myModal-{{ card.id }}">Detalles</i></a>
-			{% endif %}
-			<h3>
-				{{ card.title }}
-			</h3>
-			{% if card.title %}
-				{% include modal.html %}
-			{% endif %}
+<div class="col-md-4 item">
+  <div class="box {{ card.urgency }}">
 
-			<h5>¿Por qué es importante?</h5>
-			{% for quote in card.importance %}
-			<blockquote>{{ quote.txt }}</blockquote>
-			{% endfor %}
+    {% if card.urgency %}
+    <ul class="list-inline urgency text-left">
+      <li>
+          <span class="label label-{{ card.urgency | replace:' ','-' }}">{{ card.urgency }}</span>
+      </li>
+    </ul>
+    {% endif %}
 
-		</div>
+    <ul class="list-inline status text-right">
+      <li>
+        {% if card.status == 'en discusion' %}
+          <span data-toggle="tooltip" title="El Congreso está discutiendo esta propuesta." data-placement="left" class="label label-{{ card.status | replace:' ','-' }}">{{ card.status }}</span>
+        {% endif %}
+        {% if card.status == 'pendiente' %}
+          <span data-toggle="tooltip" title="El Congreso aún no comienza a discutir esta propuesta o parte importante de ella." data-placement="left" class="label label-{{ card.status | replace:' ','-' }}">{{ card.status }}</span>
+        {% endif %}
+        {% if card.status == 'aprobada' %}
+          <span data-toggle="tooltip" title="El Congreso ya discutió y aprobó esta propuesta." data-placement="left" class="label label-{{ card.status | replace:' ','-' }}">{{ card.status }}</span>
+        {% endif %}
+        {% if card.status == 'rechazada' %}
+          <span data-toggle="tooltip" title="El Congreso está discutiendo esta propuesta." data-placement="left" class="label label-{{ card.status | replace:' ','-' }}">{{ card.status }}</span>
+        {% endif %}
+        {% if card.status == 'aprobada parcialmente' %}
+          <span data-toggle="tooltip" title="El Congreso discutió esta propuesta y la aprobó parcialmente." data-placement="left" class="label label-{{ card.status | replace:' ','-' }}">{{ card.status }}</span>
+        {% endif %}
+      </li>
+    </ul>
 
-		{% if card.news %}
-			<div class="news">
-				<h5>¿Qué esta pasando?</h5>
-				{% for quote in card.news %}
-					<blockquote>{{ quote.txt }}</blockquote>
-				{% endfor %}
-			</div>
-		{% endif %}
 
-		<div class="support">
-			<div class="row">
-				<div class="col-md-6 counter">
-					<ul class="list-inline">
-						{% for nro in card.citizens_cnt %}
-						<li>{{nro}}</li>
-						{% endfor %}
-					</ul>
-				</div>
-				<div class="col-md-6 align-ciudadanos">
-					Ciudadanos que apoyan la propuesta
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<a class="btn btn-md btn-success full-width" href="/">Apoyar</a>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="card-description">
+      {% if card.details %}
+        <a href="#" data-toggle="modal" data-target="#myModal-{{ card.id }}">Más info</i></a>
+      {% endif %}
+      <h3>
+      {{ card.title }}
+      </h3>
+      <div class="text-left tweet-btn">
+        <a class="twitter-share-button btn btn-primary btn-xs" onclick="window.open('https://twitter.com/intent/tweet?via=ciudadanoi&url=http%3A%2F%2Fagendatransparencia.cl{{ card.permalink }}&text=%20%23LxsCiudadanxsQueremos {{ card.title }}','_blank','height=400,width=300')">Twittea</a>
+      </div>
+      {% if card.title %}
+      {% include modal.html %}
+      {% endif %}
+
+      <h5>¿Por qué es importante?</h5>
+      {% for quote in card.importance %}
+      <blockquote>{{ quote.txt }}</blockquote>
+      {% endfor %}
+    </div>
+
+    {% if card.news %}
+      <div class="news">
+        <h5>¿Qué esta pasando?</h5>
+        {% for quote in card.news %}
+          <blockquote>{{ quote.txt }}</blockquote>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    <div class="support">
+      <div class="row">
+        <div class="col-md-6 counter">
+          <ul class="list-inline citizen-support-{{ card.id }}" >
+            {% for nro in card.citizens_cnt %}
+            <li>{{nro}}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="col-md-6 align-ciudadanos">
+          Ciudadanos que apoyan la propuesta
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <a id="vote-{{card.id}}" class="btn btn-md btn-success full-width" href="" ng-click="addVote({{card.id}})">Apoyar</a>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      var x = 1;
+      while(x<10) {
+        if( Cookies.get('card-'+x) ) {
+            var card_name = Cookies.get('card-'+x);
+            $('#'+card_name).attr('disabled','disabled');
+            $('#'+card_name).html('Gracias por tu apoyo');
+        }
+        x++;
+      }
+
+      if( $('#cards').length ) {
+        $.get('{{ site.herokuapp }}', function(data){
+          $.each(data, function(k,v){
+              counter_votes(v);
+          })
+        })
+      }
+
+    })
+
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+  </script>

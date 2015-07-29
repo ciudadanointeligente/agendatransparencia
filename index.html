@@ -8,22 +8,34 @@ layout: default
 
     </div>
   </div>
-  <h1 class="text-center">Aquí hemos identificado 9 propuestas muy importantes que quizás no se logren aprobar en el congreso. Descubre por qué debemos aprobarlas, revisa qué se esta discutiendo y apoya las medidas que te parezcan importantes.</h1>
+  <h1 class="text-center"><span class="bg-blue">Estas son las 9 propuestas clave de la agenda transparencia</span><span class="bg-red"> en riesgo de no convertirse en ley</span></h1>
+  <h2 class="text-center">Descubre por qué debemos aprobarlas, en qué está su discusión y apoya las medidas que te parezcan importantes.</h2>
+  <ul class="share-btn list-inline">
+    <li class="text-center">
+      <a class="twitter-share-button btn btn-primary btn-xs" onclick="window.open('https://twitter.com/intent/tweet?via=ciudadanoi&url=http%3A%2F%2Fagendatransparencia.cl%2F&text={{ site.description }}','_blank','height=400,width=300')"><i class="fa fa-twitter"></i> Twittear</a>
+    </li>
+    <li class="fb-share-button" data-href="{{ site.baseurl }}" data-layout="button"></li>
+  </ul>
 </div>
 
+<section id="cards" ng-app="atransparenciaApp">
+  <div class="container" ng-controller="AddVotesCtrl">
+    <div class="row masonry-container">
 
-<section>
-  <div class="container">
-    <div class="row">
-    {% assign count = 1 %}
       {% for card in site.cards %}
           {% include card.html %}
-        {% assign mod = count | modulo:3 %}
-        {% if mod == 0 %}
-          </div><div class="row">
-        {% endif %}
-        {% assign count=count | plus:1 %}
       {% endfor %}
+      
     </div>
   </div>
 </section>
+
+<script type="">
+  var $container = $('.masonry-container');
+    $container.imagesLoaded( function () {
+      $container.masonry({
+        columnWidth: '.item',
+        itemSelector: '.item'
+      });   
+    });
+</script>

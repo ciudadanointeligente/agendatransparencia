@@ -1,18 +1,21 @@
 # site settings
 title: Agenda transparencia
-email: info@ciudadanointeligente.org
-description: Dale seguimiento a las propuestas del Consejo Anticorrupción.
+email: prensa@ciudadanointeligente.org
+description: Descubre y fiscaliza las 9 medidas de la AgendaTransparencia que están en riesgo de no ser ley.
 baseurl: '//agendatransparencia.cl' #example: '/agendatransparencia'
 basedomain: agendatransparencia.cl #ciudadanointeligente.github.io
 analytics: 'UA-41822715-6'
 
-#social
+# social
 hashtag: AgendaTransparencia
 twitter_username: ciudadanoi
-twitter_txt: 'Estos son los 15 puntos clave del Informe Anticorrupción según @ciudadanoi. Difunde en'
+twitter_txt: 'Yo opino del Informe Anticorrupción lo siguiente...'
 
 # build settings
 markdown: kramdown
+
+#herokuapp
+herokuapp: '//api.agendatransparencia.cl/proposals'
 
 collections:
   cards:

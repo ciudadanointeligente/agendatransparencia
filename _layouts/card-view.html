@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  {% include head-tw.html %}
+  <body>
+    {% include header.html %}
+    <div id="card" class="card-view" ng-app="atransparenciaApp" ng-controller="AddVotesCtrl">
+      <div class="container">
+          <div class="col-md-12 item">
+            <div class="box">
+
+              <ul class="list-inline status text-right">
+                <li>
+                  {% if page.status == 'en discusion' %}
+                    <span data-toggle="tooltip" title="El Congreso está discutiendo esta propuesta." data-placement="left" class="label label-{{ page.status | replace:' ','-' }}">{{ page.status }}</span>
+                  {% endif %}
+                  {% if page.status == 'pendiente' %}
+                    <span data-toggle="tooltip" title="El Congreso aún no comienza a discutir esta propuesta o parte importante de ella." data-placement="left" class="label label-{{ page.status | replace:' ','-' }}">{{ page.status }}</span>
+                  {% endif %}
+                  {% if page.status == 'aprobada' %}
+                    <span data-toggle="tooltip" title="El Congreso ya discutió y aprobó esta propuesta." data-placement="left" class="label label-{{ page.status | replace:' ','-' }}">{{ page.status }}</span>
+                  {% endif %}
+                  {% if page.status == 'rechazada' %}
+                    <span data-toggle="tooltip" title="El Congreso está discutiendo esta propuesta." data-placement="left" class="label label-{{ page.status | replace:' ','-' }}">{{ page.status }}</span>
+                  {% endif %}
+                  {% if page.status == 'aprobada parcialmente' %}
+                    <span data-toggle="tooltip" title="El Congreso discutió esta propuesta y la aprobó parcialmente." data-placement="left" class="label label-{{ page.status | replace:' ','-' }}">{{ page.status }}</span>
+                  {% endif %}
+                </li>
+              </ul>
+
+              <div class="card-description">
+                <h1>
+                {{ page.title }}
+                </h1>
+                <div class="text-left tweet-btn">
+                  <a class="twitter-share-button btn btn-primary btn-xs" onclick="window.open('https://twitter.com/intent/tweet?via=ciudadanoi&url=http%3A%2F%2Fagendatransparencia.cl{{ page.permalink }}&text=%20%23LxsCiudadanxsQueremos {{ page.title }}','_blank','height=400,width=300')">Twittea</a>
+                </div>
+
+                <h3>¿Por qué es importante?</h3>
+                {% for quote in page.importance %}
+                <blockquote>{{ quote.txt }}</blockquote>
+                {% endfor %}
+              </div>
+
+              {% if page.news %}
+                <div class="news">
+                  <h3>¿Qué esta pasando?</h3>
+                  {% for quote in page.news %}
+                    <blockquote>{{ quote.txt }}</blockquote>
+                  {% endfor %}
+                </div>
+              {% endif %}
+
+              <div class="card-description">
+                {% if page.details %}
+                  <h3>Hitos</h3>
+                  {{ page.content }}
+                {% endif %}
+              </div>
+
+
+              <div class="support">
+                <div class="row">
+                  <div class="col-md-3 col-md-offset-3" id="counter">
+                    <ul class="list-inline citizen-support-{{ page.id }}" >
+                      {% for nro in page.citizens_cnt %}
+                      <li>{{nro}}</li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="row">
+                      <div class="col-md-12 align-ciudadanos">
+                        Ciudadanos que apoyan la propuesta
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <a id="vote-{{page.id}}" class="btn btn-md btn-success full-width" href="" ng-click="addVote({{page.id}})">Apoyar</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- end container -->
+      </div><!-- end card-view -->
+
+          <script type="text/javascript">
+            $(document).ready(function(){
+              var x = 1;
+              while(x<10) {
+                if( Cookies.get('card-'+x) ) {
+                    var card_name = Cookies.get('card-'+x);
+                    $('#'+card_name).attr('disabled','disabled');
+                    $('#'+card_name).html('Gracias por tu apoyo');
+                }
+                x++;
+              }
+
+              if( $('#card').length ) {
+                $.get('{{ site.herokuapp }}', function(data){
+                  $.each(data, function(k,v){
+                      counter_votes(v);
+                  })
+                })
+              }
+
+            })
+
+            $(function () {
+              $('[data-toggle="tooltip"]').tooltip()
+            })
+          </script>
+    {% include footer.html %}
+  </body>
+</html>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>

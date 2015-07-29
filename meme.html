@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="container hero">
+  <div class="text-width text-center">
+    <h1>Generador de memes</h1>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+    <div id="main">
+      <div id="header">
+      </div>
+      <div style="font-size: 20px">Sube una imagen desde tu computador: <i>(opcional)</i></div>
+      <input type="file" id="image"><br>
+      <textarea class="caption" id="text1" cols="60" rows="3" placeholder="Texto superior"></textarea><br>
+      <canvas id="canvas" style="width: 600px"></canvas>
+      <textarea class="caption" id="text2" cols="60" rows="3" placeholder="Texto inferior"></textarea><br><br>
+      <table>
+        <tr><td>Tamaño de la fuente:</td><td><input type="range" id="sliderSize" value="50" min="10" max="72"></td></tr>
+        <tr><td>Tamaño de la imagen:</td><td><input type="range" id="sliderImage" value="600" min="240" max="600"></td></tr>
+      </table>
+      <br>
+      <button id="upload" class="btn btn-primary btn-lg">¡Subir!</button>
+      <div id="uploaded" style="color: gray">El link del meme aparecerá aquí</div>
+      <br><br>
+      {% include social.html %}
+      <img id="placeholder_image" src="./img/base.png" style="display: none">
+    </div>
+  </div>
+</section>
+
+<script src="{{ site.baseurl }}/js/memegenerator.js"></script>
