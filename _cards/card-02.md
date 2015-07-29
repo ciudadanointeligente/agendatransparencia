@@ -22,5 +22,5 @@ twitter_img: /img/card02.png
 * 16 de diciembre de 2014 el Gobierno ingresó Proyecto de ley de fortalecimiento y transparencia de la democracia, Boletín Nº 9790-07, en segundo trámite en el Senado. <a href="http://camara.cl/pley/pley_detalle.aspx?prmID=10201&prmBL=9790-07" target="_blank">Ver</a>
 * 9 de junio de 2015 la Comisión de Constitución de la Cámara de Diputados lo aprobó en particular.
 * 7 de julio de 2015 la Comisión de Hacienda de la Cámara de Diputados lo aprobó en particular.
-* 15 de julio de 2015 fue aprobado en primer trámite por la Cámara de Diputados.
+* 15 de julio de 2015 fue aprobado en primer trámite por la sala de la Cámara de Diputados.
 * 23 de julio de 2015 fue aprobado en general por la Comisión especial de Probidad y Transparencia del Senado.
