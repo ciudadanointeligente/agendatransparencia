@@ -12,6 +12,7 @@ importance:
 news:
   - txt: El proyecto fue aprobado por la Cámara de Diputados el 15 de julio en primer trámite.
   - txt: El proyecto fue aprobado en general por la Comisión especial de Probidad y Transparencia del Senado el jueves 23 de julio y pronto será visto por la Sala.
+  - txt: El proyecto fue aprobado en general por la Comisión especial de Probidad y Transparencia del Senado el jueves 23 de julio y pronto será visto por la Sala.
   - txt: Respecto al texto aprobado, <a href="http://blog.ciudadanointeligente.org/post/124071947704/minuta-observaciones-proyecto-de-ley-de" target="_blank">revisa las observaciones</a> de la Fundación Ciudadano Inteligente
 citizens_cnt: [0,0,0]
 details: true
