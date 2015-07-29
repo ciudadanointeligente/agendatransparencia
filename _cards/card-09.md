@@ -8,4 +8,6 @@ importance:
 citizens_cnt: [0,0,0]
 permalink: /fortalecimiento-del-congreso-nacional.html
 twitter_img: /img/card09.png
+details: true
 ---
+* En la primera cuenta pública del Congreso Nacional los Presidentes del Senado y la Cámara se comprometieron a fortalecer las Comisiones de Ética, las sanciones que esta puede imponer y la transparencia del trabajo de Comisiones.
