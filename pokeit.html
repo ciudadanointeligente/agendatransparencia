@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<section id="poke-it">
+  <div class="container">
+      <ul class="grid cs-style-3 clearfix">
+          {% assign counter=0 %}
+          {% for congressman in site.congressmen %}
+          <div class="col-md-15 col-sm-15">
+              <div class="thumbnail">
+                  <img src="{{site.url}}/img/congressman/{{congressman.image}}" alt="{{congressman.name}}">
+                  <div class="caption">
+                      <h3>{{ congressman.name }}</h3>
+                      <p>{{ congressman.party }}</p>
+                      <p>{{ congressman.mail }}</p>
+                      <p>{{ congressman.twitter }}</p>
+                  </div>
+              </div>
+          </div>
+          {% if counter == 4 %}
+          </ul>
+          <ul class="grid cs-style-3 clearfix">
+          {% endif %}
+          {% assign counter=counter | plus:1 %}
+          {% endfor %}
+      </ul>
+  </div>
+</section>
