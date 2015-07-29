@@ -17,4 +17,4 @@ twitter_img: /img/card04.png
 ---
 
 * En agenda de probidad del Gobierno. <a href="http://www.agendadeprobidad.gob.cl/?ver=2276" target="_blank">Ver</a>
-* Proyecto de ley que modifica la Ley de Transparencia. <a href="http://camara.cl/pley/pley_detalle.aspx?prmID=8086&prmBL=7686-07" target="_blank">Ver</a>
+* Proyecto de ley que modifica la Ley de Transparencia, boletín Nº 7686-07. <a href="http://camara.cl/pley/pley_detalle.aspx?prmID=8086&prmBL=7686-07" target="_blank">Ver</a>
