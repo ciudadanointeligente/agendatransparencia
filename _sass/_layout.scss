@@ -58,6 +58,9 @@ h4, .h4 {
   margin: 0 auto;
  }
 
+.full-width {
+  width: 100%;
+}
 
 .site-header {
   padding: 5px;
@@ -479,14 +482,6 @@ footer a img:hover {
 
 .titleLine h2{
   font-size: 42px;
-}
-
-.caption h3{
-  font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
-  font-size: 24px;
-  font-weight: bold;
-  margin: 0;
-  padding: 0;
 }
 
 .reform{
@@ -1136,6 +1131,12 @@ span.paring {
   background-color: $darkgrey;
 }
 
+.box .news .label-default {
+    margin-right: 8px;
+    color: $blue;
+    background-color: white;
+}
+
 .urgency {
   float: left;
 }
@@ -1315,6 +1316,16 @@ h2.hero {
   left: 50%;
   position: absolute;
   margin-left: -179px;
+}
+
+/*Poke-it*/
+
+#poke-it .thumbnail {
+    min-height: 250px;
+}
+
+.redes a {
+    margin-bottom: 5px;
 }
 
 /*MEDIA QUERIES*/

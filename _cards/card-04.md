@@ -3,13 +3,12 @@ layout: card-view
 status: pendiente
 id: 04
 title: Sistema integral de transparencia
-importance:
-  - txt: Necesitamos fortalecer nuestro sistema de transparencia, consagrando el derecho de acceso en la Constitución.
-  - txt: Se necesita extender la competencia del Consejo para la Transparencia al Poder Legislativo, Judicial y órganos autónomos.
-  - txt: Nuestro país necesita contar con una política nacional de Datos Abiertos, para fomentar el acceso a la información pública y su control social.
-news:
-  - txt: El proyecto de ley que modifica la Ley de Transparencia se encuentra con urgencia simple pendiente de continuar su discusión en la Comisión especial encargada de conocer proyectos relativos a probidad y transparencia.
-  - txt: <a href="https://docs.google.com/document/d/1DHA83YUs7igCZUsoAJeaqFIxCfHX1KrRC4fApc5Bci0/edit?usp=sharing" target="_blank">Revisa la minuta </a> de la Fundación sobre el contenido de dicho proyecto.
+como-esta-hoy:
+  - txt: Hoy el artículo 56 de la <a href="http://www.leychile.cl/Consulta/listaresultadosimple?cadena=ley+18575">Ley de Bases de la Administración del Estado</a> establece que son incompatibles las actividades de ex funcionarios de instituciones fiscalizadoras que impliquen una relación laboral con entidades privadas sujetas a su fiscalización hasta 6 meses de cesados en sus funciones. Sin embargo no establece una sanción a su infracción ni un ente fiscalizador, por lo que en la práctica no se aplica.
+que-se-propone:
+  - txt: El proyecto de ley que previene y sanciona los conflictos de intereses, y modifica normas sobre inhabilidades e incompatibilidades en el ejercicio de la función pública, boletín Nº 10.140-7 extiende las inhabilidades a lobbistas, incorpora a los convivientes civiles dentro de los deberes de abstención de funcionarios, establece normas de protección a los denunciantes y perfecciona las normas de puerta giratoria con sanciones y fiscalización.
+que-falta:
+  - txt: Los plazos establecidos para la puerta giratoria son muy breves (6 y 3 meses), no se incluyen a organismos reguladores y todos los Ministros/Ministras y Subsecretarios/Subsecretarias.
 citizens_cnt: [0,0,1]
 details: true
 permalink: /sistema-integral-de-transparencia.html

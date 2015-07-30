@@ -20,3 +20,5 @@ herokuapp: '//api.agendatransparencia.cl/proposals'
 collections:
   cards:
     output: true
+  congressmen:
+    output: true

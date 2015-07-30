@@ -43,21 +43,32 @@
       {% if card.title %}
       {% include modal.html %}
       {% endif %}
-
-      <h5>¿Por qué es importante?</h5>
-      {% for quote in card.importance %}
-      <blockquote>{{ quote.txt }}</blockquote>
-      {% endfor %}
     </div>
 
     {% if card.news %}
       <div class="news">
-        <h5>¿Qué esta pasando?</h5>
         {% for quote in card.news %}
-          <blockquote>{{ quote.txt }}</blockquote>
+          {{ quote.txt }}
         {% endfor %}
       </div>
     {% endif %}
+
+    <div class="card-description">
+      <h5>¿Cómo esta hoy?</h5>
+      {% for quote in card.como-esta-hoy %}
+      <blockquote>{{ quote.txt }}</blockquote>
+      {% endfor %}
+
+      <h5>¿Qué se propone?</h5>
+      {% for quote in card.que-se-propone %}
+      <blockquote>{{ quote.txt }}</blockquote>
+      {% endfor %}
+
+      <h5>¿Qué falta?</h5>
+      {% for quote in card.que-falta %}
+      <blockquote>{{ quote.txt }}</blockquote>
+      {% endfor %}
+    </div>
 
     <div class="support">
       <div class="row">

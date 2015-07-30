@@ -11,10 +11,15 @@ layout: default
               <div class="thumbnail">
                   <img src="{{site.url}}/img/congressman/{{congressman.image}}" alt="{{congressman.name}}">
                   <div class="caption">
-                      <h3>{{ congressman.name }}</h3>
+                      <h4>{{ congressman.name }}</h4>
                       <p>{{ congressman.party }}</p>
-                      <p>{{ congressman.mail }}</p>
-                      <p>{{ congressman.twitter }}</p>
+                        <div class="redes">
+                          <a href="#" onclick="window.open(&quot;//twitter.com/share?url=http://agendatransparencia.cl/&amp;via=ciudadanoi&amp;hashtags=LosCiudadanosQueremos&amp;text={{ congressman.twitter }}&quot;,&quot;twitter&quot;,&quot;width=450, height=250&quot;)" class="full-width btn btn-primary"><i class="fa fa-twitter"></i> Twitteale
+                          </a>
+                        </div>
+                        <div>
+                          <a href="mailto:{{ congressman.mail }}?Subject=Prensa%20de%20labcivico.org" class="email-prensa full-width btn btn-primary" target="_top"><i class="fa fa-envelope-o"></i> Envíale un mail</a>
+                        </div>
                   </div>
               </div>
           </div>

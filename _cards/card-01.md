@@ -3,12 +3,12 @@ layout: card-view
 status: en discusion
 id: 01
 title: Servel fortalecido con autonomía constitucional
-importance:
-  - txt: Necesitamos un Servel con autonomía constitucional y atribuciones de fiscalización, dotación de personal y presupuesto adecuado para cumplir su rol.
-  - txt: Este Servel debe debe contar con estas atribuciones para las próximas elecciones municipales.
-  - txt: Necesitamos un Servel que pueda efectivamente fiscalizar las campañas electorales y su financiamiento.
-news:
-  - txt: El proyecto que establece la autonomía constitucional del Servel fue aprobado por la Cámara de Diputados y será discutido próximamente en el Senado.
+como-esta-hoy:
+  - txt: Hoy el Servel es un ente autónomo, pero que no goza de reconocimiento constitucional.
+que-se-propone:
+  - txt: El proyecto de ley de Reforma constitucional de autonomía del Servel, boletín Nº 10055-07 busca dotar al Servel de autonomía constitucional y así de mayor independencia del poder central para cumplir con la función electoral que este organismo está llamado a servir.
+que-falta:
+  - txt: Estamos de acuerdo con la propuesta. Falta que sea aprobado y que sus facultades de fiscalización y sanción se fortalezcan en un proyecto de ley complementario.
 citizens_cnt: [0,0,0]
 details: true
 permalink: /servel-fortalecido-con-autonomia-constitucional.html

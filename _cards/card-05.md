@@ -3,10 +3,10 @@ layout: card-view
 status: en discusion
 id: 05
 title: Regular la “puerta giratoria” entre sector público y privado
-importance:
-  - txt: Necesitamos una regulación que evite conflictos de interés flagrantes, a través de la prohibición del tránsito de ciertos cargos en el sector público y privado y viceversa, sin que esto impida la movilidad laboral entre el sector público y privado.
-news:
-  - txt: El proyecto de ley que previene y sanciona los conflictos de intereses, y modifica normas sobre inhabilidades e incompatibilidades en el ejercicio de la función pública ingresó al Congreso el 25 de junio de 2015.
+como-esta-hoy:
+  - txt: Hoy el Código Penal regula las penas por tráfico de influencias, negociación incompatible y cohecho. La Comisión Engel propuso revisarlas de acuerdo a los estándares internacionales de la OECD.adas sujetas a su fiscalización hasta 6 meses de cesados en sus funciones. Sin embargo no establece una sanción a su infracción ni un ente fiscalizador, por lo que en la práctica no se aplica.
+que-se-propone:
+  - txt: El proyecto de ley que tipifica el delito de corrupción entre particulares y modifica disposiciones del Código Penal relativas a delitos funcionarios, boletín N° 10155-07, aumenta las penas para el delito de negociación incompatible, incorpora una agravante al delito de tráfico de influencia cuando se obtenga el beneficio perseguido, aumenta las penas del delito de cohecho y el soborno e incorpora el delito de corrupción entre particulares.
 citizens_cnt: [0,0,0]
 details: true
 permalink: /regular-la-puerta-giratoria-entre-sector-publico-y-privado.html
